@@ -1,0 +1,259 @@
+{
+  "nav": {
+    "services": "Services",
+    "cases": "Cases",
+    "academy": "Academy",
+    "labs": "Labs",
+    "blog": "Blog",
+    "about": "About",
+    "cta": "Let's Talk",
+    "lang_es": "ES",
+    "lang_en": "EN"
+  },
+  "hero": {
+    "badge": "ARKMAPIX · Data & AI Architecture",
+    "headline_1": "Data architecture.",
+    "headline_2": "Intelligence without limits.",
+    "subheadline": "We transform data into competitive advantages. We design architectures that scale with your business.",
+    "cta_primary": "See our services",
+    "cta_secondary": "Learn more",
+    "scroll_hint": "Scroll down"
+  },
+  "clients": {
+    "title": "Trusted by leading companies"
+  },
+  "about": {
+    "label": "ABOUT ARKMAPIX",
+    "headline": "Built at the summit. Designed for the future.",
+    "body": "Like the citadel of Machu Picchu, built to defy time and altitude, our data architectures are designed to be durable, precise and scalable. From Medellín, Colombia, we bring data intelligence to companies across Latin America and the world.",
+    "stat_projects": "projects",
+    "stat_countries": "countries",
+    "stat_years": "years of experience",
+    "stat_projects_num": "50+",
+    "stat_countries_num": "8",
+    "stat_years_num": "6+",
+    "cta": "Our story",
+    "image_alt": "Machu Picchu — ARKMAPIX architectural inspiration"
+  },
+  "services": {
+    "label": "WHAT WE BUILD",
+    "headline": "High-impact data solutions",
+    "subheadline": "From architecture to artificial intelligence, we cover the entire data lifecycle.",
+    "see_more": "See more",
+    "items": {
+      "data_architecture": {
+        "name": "Data Architecture",
+        "description": "Design of Medallion, Lakehouse and Data Mesh platforms on Azure Databricks and Microsoft Fabric for scaling enterprises."
+      },
+      "data_engineering": {
+        "name": "Data Engineering",
+        "description": "Lakeflow pipelines, ETL/ELT, Azure Data Factory and Databricks Asset Bundles. Data ready when you need it."
+      },
+      "advanced_analytics": {
+        "name": "Advanced Analytics",
+        "description": "BI, executive dashboards, Power BI, Unity Catalog and data governance. Evidence-based decisions."
+      },
+      "artificial_intelligence": {
+        "name": "Artificial Intelligence",
+        "description": "AI agents, LLMs, MLOps, Azure AI Foundry and RAG pipelines. AI at the service of your business."
+      },
+      "cloud_devops": {
+        "name": "Cloud & Data DevOps",
+        "description": "CI/CD for data, Azure DevOps, DAB and Microsoft Fabric Mirroring. Infrastructure that doesn't slow you down."
+      },
+      "academy": {
+        "name": "ARKMAPIX Academy",
+        "description": "Certified technical training, enterprise courses and specializations in Databricks and Azure for teams."
+      }
+    }
+  },
+  "process": {
+    "label": "HOW WE WORK",
+    "headline": "A proven process for real results",
+    "steps": {
+      "diagnosis": {
+        "title": "Diagnosis",
+        "description": "We evaluate your current architecture, identify gaps and improvement opportunities in your data systems."
+      },
+      "architecture": {
+        "title": "Architecture",
+        "description": "We design the optimal solution for your use case, technologies and business scale."
+      },
+      "implementation": {
+        "title": "Implementation",
+        "description": "We build and deploy with agile methodology, keeping the team informed at every sprint."
+      },
+      "validation": {
+        "title": "Validation",
+        "description": "Performance, data quality, security and governance testing before going to production."
+      },
+      "scaling": {
+        "title": "Scaling",
+        "description": "We optimize costs, scale capabilities and transfer knowledge to your internal team."
+      }
+    }
+  },
+  "cases": {
+    "label": "CASE STUDIES",
+    "headline": "Results that speak for themselves",
+    "subheadline": "Real projects with measurable impact in leading companies across the region.",
+    "see_case": "View full case",
+    "items": {
+      "case_1": {
+        "title": "Unified Data Platform for Multinational Retailer",
+        "industry": "Retail",
+        "result": "70% reduction in processing time",
+        "description": "Migration from legacy data warehouse to Medallion architecture on Azure Databricks, unifying 15 data sources."
+      },
+      "case_2": {
+        "title": "AI Agent for Supply Chain Optimization",
+        "industry": "Manufacturing",
+        "result": "$2M USD in annual savings",
+        "description": "LLM agent implementation with RAG over order history and supplier catalog."
+      },
+      "case_3": {
+        "title": "Data Mesh for Financial Services Company",
+        "industry": "Finance",
+        "result": "3x faster regulatory reports",
+        "description": "Data Mesh architecture with Unity Catalog and data governance for regulatory compliance."
+      },
+      "case_4": {
+        "title": "Analytics Center for Healthcare Sector",
+        "industry": "Healthcare",
+        "result": "98% critical data availability",
+        "description": "Real-time clinical analytics platform with dashboards for medical and executive teams."
+      }
+    }
+  },
+  "tech": {
+    "label": "TECH STACK",
+    "headline": "We build on the best platforms",
+    "subheadline": "Modern and certified stack for every layer of your data architecture."
+  },
+  "testimonials": {
+    "label": "WHAT THEY SAY",
+    "headline": "Our clients trust us",
+    "items": {
+      "t1": {
+        "quote": "ARKMAPIX completely transformed our analytical capability. In 6 months we went from weekly manual reports to real-time dashboards that the entire organization uses daily.",
+        "name": "Carlos Mendoza",
+        "role": "CTO",
+        "company": "RetailCo Latin America"
+      },
+      "t2": {
+        "quote": "The technical level of the team is exceptional. They understood our business before writing a single line of code. The architecture they designed is robust, scalable and easy to maintain.",
+        "name": "Ana Sofía Restrepo",
+        "role": "Chief Data Officer",
+        "company": "Andean Financial Group"
+      },
+      "t3": {
+        "quote": "We hired ARKMAPIX for a 3-month project that became a long-term strategic partnership. Their focus on knowledge transfer made our team grow enormously.",
+        "name": "Diego Vargas",
+        "role": "VP of Technology",
+        "company": "Pacific Industries"
+      }
+    }
+  },
+  "cta_banner": {
+    "headline": "Ready to transform your data?",
+    "subheadline": "Schedule a call with our data architects and discover how ARKMAPIX can accelerate your digital transformation.",
+    "cta_primary": "Schedule a call",
+    "cta_secondary": "See services",
+    "stat_label": "Projects successfully delivered"
+  },
+  "blog": {
+    "label": "INSIGHTS",
+    "headline": "Knowledge that drives decisions",
+    "read_more": "Read more",
+    "items": {
+      "post_1": {
+        "category": "Data Engineering",
+        "title": "Lakeflow vs ADF: Which to choose for your next data pipeline",
+        "excerpt": "A practical comparison of Databricks Lakeflow and Azure Data Factory for teams that need to decide their integration stack.",
+        "date": "Mar 15, 2025"
+      },
+      "post_2": {
+        "category": "Artificial Intelligence",
+        "title": "How to build a RAG agent with Azure AI Foundry in production",
+        "excerpt": "Step-by-step technical guide to implement an augmented retrieval agent with real enterprise data.",
+        "date": "Mar 8, 2025"
+      },
+      "post_3": {
+        "category": "Microsoft Fabric",
+        "title": "Microsoft Fabric Mirroring: ETL-free sync for your lakehouse",
+        "excerpt": "We explore the new Mirroring functionality in Microsoft Fabric and how it can radically simplify your architecture.",
+        "date": "Mar 1, 2025"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Built at the summit. Engineered for the future.",
+    "services_title": "Services",
+    "company_title": "Company",
+    "contact_title": "Contact",
+    "newsletter_placeholder": "Your corporate email",
+    "newsletter_cta": "Subscribe",
+    "newsletter_label": "Data insights every week",
+    "copyright": "© 2025 ARKMAPIX. All rights reserved.",
+    "location": "Medellín, Colombia",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "links": {
+      "about": "About",
+      "cases": "Case Studies",
+      "academy": "Academy",
+      "labs": "Labs",
+      "blog": "Blog",
+      "contact": "Contact"
+    }
+  },
+  "contact": {
+    "hero_title": "Let's talk about your project",
+    "hero_subtitle": "Tell us what you're building and our team will respond in less than 24 hours.",
+    "form": {
+      "name": "Full name",
+      "email": "Corporate email",
+      "company": "Company",
+      "country": "Country",
+      "service": "Service of interest",
+      "message": "Tell us about your project",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent! We'll get back to you soon.",
+      "error": "An error occurred. Please try again.",
+      "select_country": "Select your country",
+      "select_service": "Select a service"
+    },
+    "info": {
+      "email_label": "Email",
+      "email_value": "hello@arkmapix.com",
+      "response_time": "We respond in less than 24 hours",
+      "schedule_label": "Schedule a call",
+      "schedule_cta": "Book on Calendly",
+      "location_label": "Location",
+      "location_value": "Medellín, Colombia"
+    }
+  },
+  "meta": {
+    "home": {
+      "title": "ARKMAPIX — Data Architecture and Artificial Intelligence",
+      "description": "Latin American data, analytics and artificial intelligence consultancy. We design architectures that scale with your business. Azure Databricks, Microsoft Fabric, AI Agents."
+    },
+    "about": {
+      "title": "About — ARKMAPIX",
+      "description": "Meet the team behind ARKMAPIX, our philosophy and how we build world-class data solutions from Colombia."
+    },
+    "services": {
+      "title": "Services — ARKMAPIX",
+      "description": "Data architecture, data engineering, advanced analytics, artificial intelligence and more. Discover our specialized services."
+    },
+    "cases": {
+      "title": "Case Studies — ARKMAPIX",
+      "description": "Data projects with real impact. Success stories in retail, finance, manufacturing and healthcare."
+    },
+    "contact": {
+      "title": "Contact — ARKMAPIX",
+      "description": "Schedule a call with our data architects. We respond in less than 24 hours."
+    }
+  }
+}

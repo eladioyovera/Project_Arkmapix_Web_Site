@@ -1,0 +1,259 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "cases": "Casos",
+    "academy": "Academia",
+    "labs": "Labs",
+    "blog": "Blog",
+    "about": "Nosotros",
+    "cta": "Hablemos",
+    "lang_es": "ES",
+    "lang_en": "EN"
+  },
+  "hero": {
+    "badge": "ARKMAPIX · Data & AI Architecture",
+    "headline_1": "Arquitectura de datos.",
+    "headline_2": "Inteligencia sin límites.",
+    "subheadline": "Transformamos datos en ventajas competitivas. Diseñamos arquitecturas que escalan con tu negocio.",
+    "cta_primary": "Ver nuestros servicios",
+    "cta_secondary": "Conocer más",
+    "scroll_hint": "Desplázate hacia abajo"
+  },
+  "clients": {
+    "title": "Empresas que confían en ARKMAPIX"
+  },
+  "about": {
+    "label": "SOBRE ARKMAPIX",
+    "headline": "Construidos en la cima. Diseñados para el futuro.",
+    "body": "Como la ciudadela de Machu Picchu, construida para desafiar el tiempo y la altitud, nuestras arquitecturas de datos están diseñadas para ser duraderas, precisas y escalables. Desde Medellín, Colombia, llevamos inteligencia de datos a empresas en toda América Latina y el mundo.",
+    "stat_projects": "proyectos",
+    "stat_countries": "países",
+    "stat_years": "años de experiencia",
+    "stat_projects_num": "50+",
+    "stat_countries_num": "8",
+    "stat_years_num": "6+",
+    "cta": "Conocer nuestra historia",
+    "image_alt": "Machu Picchu — inspiración arquitectónica de ARKMAPIX"
+  },
+  "services": {
+    "label": "LO QUE CONSTRUIMOS",
+    "headline": "Soluciones de datos de alto impacto",
+    "subheadline": "Desde la arquitectura hasta la inteligencia artificial, cubrimos todo el ciclo de vida del dato.",
+    "see_more": "Ver más",
+    "items": {
+      "data_architecture": {
+        "name": "Arquitectura de Datos",
+        "description": "Diseño de plataformas Medallion, Lakehouse y Data Mesh sobre Azure Databricks y Microsoft Fabric para empresas que escalan."
+      },
+      "data_engineering": {
+        "name": "Data Engineering",
+        "description": "Pipelines Lakeflow, ETL/ELT, Azure Data Factory y Databricks Asset Bundles. Datos listos cuando los necesitas."
+      },
+      "advanced_analytics": {
+        "name": "Analítica Avanzada",
+        "description": "BI, dashboards ejecutivos, Power BI, Unity Catalog y gobierno del dato. Decisiones basadas en evidencia."
+      },
+      "artificial_intelligence": {
+        "name": "Inteligencia Artificial",
+        "description": "Agentes IA, LLMs, MLOps, Azure AI Foundry y RAG pipelines. La IA al servicio de tu negocio."
+      },
+      "cloud_devops": {
+        "name": "Cloud & DevOps de Datos",
+        "description": "CI/CD para datos, Azure DevOps, DAB y Microsoft Fabric Mirroring. Infraestructura que no te detiene."
+      },
+      "academy": {
+        "name": "ARKMAPIX Academy",
+        "description": "Formación técnica certificada, cursos enterprise y especializaciones en Databricks y Azure para equipos."
+      }
+    }
+  },
+  "process": {
+    "label": "CÓMO TRABAJAMOS",
+    "headline": "Un proceso probado para resultados reales",
+    "steps": {
+      "diagnosis": {
+        "title": "Diagnóstico",
+        "description": "Evaluamos tu arquitectura actual, identificamos brechas y oportunidades de mejora en tus sistemas de datos."
+      },
+      "architecture": {
+        "title": "Arquitectura",
+        "description": "Diseñamos la solución óptima para tu caso de uso, tecnologías y escala de negocio."
+      },
+      "implementation": {
+        "title": "Implementación",
+        "description": "Construimos y desplegamos con metodología ágil, manteniendo al equipo informado en cada sprint."
+      },
+      "validation": {
+        "title": "Validación",
+        "description": "Pruebas de performance, calidad del dato, seguridad y governance antes de ir a producción."
+      },
+      "scaling": {
+        "title": "Escalamiento",
+        "description": "Optimizamos costos, escalamos capacidades y transferimos conocimiento a tu equipo interno."
+      }
+    }
+  },
+  "cases": {
+    "label": "CASOS DE ÉXITO",
+    "headline": "Resultados que hablan por sí solos",
+    "subheadline": "Proyectos reales con impacto medible en empresas líderes de la región.",
+    "see_case": "Ver caso completo",
+    "items": {
+      "case_1": {
+        "title": "Plataforma de Datos Unificada para Retailer Multinacional",
+        "industry": "Retail",
+        "result": "70% reducción en tiempo de procesamiento",
+        "description": "Migración de data warehouse legacy a arquitectura Medallion en Azure Databricks, unificando 15 fuentes de datos."
+      },
+      "case_2": {
+        "title": "Agente IA para Optimización de Supply Chain",
+        "industry": "Manufactura",
+        "result": "$2M USD en ahorros anuales",
+        "description": "Implementación de agente LLM con RAG sobre historial de pedidos y catálogo de proveedores."
+      },
+      "case_3": {
+        "title": "Data Mesh para Empresa de Servicios Financieros",
+        "industry": "Finanzas",
+        "result": "3x más velocidad en reportes regulatorios",
+        "description": "Arquitectura Data Mesh con Unity Catalog y gobierno del dato para cumplimiento normativo."
+      },
+      "case_4": {
+        "title": "Centro de Analítica para Sector Salud",
+        "industry": "Salud",
+        "result": "98% disponibilidad de datos críticos",
+        "description": "Plataforma de analítica clínica en tiempo real con dashboards para equipos médicos y directivos."
+      }
+    }
+  },
+  "tech": {
+    "label": "TECNOLOGÍAS",
+    "headline": "Construimos sobre las mejores plataformas",
+    "subheadline": "Stack moderno y certificado para cada capa de tu arquitectura de datos."
+  },
+  "testimonials": {
+    "label": "LO QUE DICEN",
+    "headline": "La confianza de nuestros clientes",
+    "items": {
+      "t1": {
+        "quote": "ARKMAPIX transformó completamente nuestra capacidad analítica. En 6 meses pasamos de reportes semanales manuales a dashboards en tiempo real que toda la organización usa a diario.",
+        "name": "Carlos Mendoza",
+        "role": "CTO",
+        "company": "RetailCo Latinoamérica"
+      },
+      "t2": {
+        "quote": "El nivel técnico del equipo es excepcional. Entendieron nuestro negocio antes de escribir una sola línea de código. La arquitectura que diseñaron es robusta, escalable y fácil de mantener.",
+        "name": "Ana Sofía Restrepo",
+        "role": "Directora de Datos",
+        "company": "Grupo Financiero Andino"
+      },
+      "t3": {
+        "quote": "Contratamos a ARKMAPIX para un proyecto de 3 meses que se convirtió en una alianza estratégica de largo plazo. Su enfoque en transferencia de conocimiento hizo que nuestro equipo creciera enormemente.",
+        "name": "Diego Vargas",
+        "role": "VP de Tecnología",
+        "company": "Industrias del Pacífico"
+      }
+    }
+  },
+  "cta_banner": {
+    "headline": "¿Listo para transformar tus datos?",
+    "subheadline": "Agenda una llamada con nuestros arquitectos de datos y descubre cómo ARKMAPIX puede acelerar tu transformación digital.",
+    "cta_primary": "Agendar llamada",
+    "cta_secondary": "Ver servicios",
+    "stat_label": "Proyectos entregados con éxito"
+  },
+  "blog": {
+    "label": "INSIGHTS",
+    "headline": "Conocimiento que impulsa decisiones",
+    "read_more": "Leer más",
+    "items": {
+      "post_1": {
+        "category": "Data Engineering",
+        "title": "Lakeflow vs ADF: Cuál elegir para tu siguiente pipeline de datos",
+        "excerpt": "Una comparación práctica de Databricks Lakeflow y Azure Data Factory para equipos que necesitan decidir su stack de integración.",
+        "date": "15 Mar 2025"
+      },
+      "post_2": {
+        "category": "Inteligencia Artificial",
+        "title": "Cómo construir un agente RAG con Azure AI Foundry en producción",
+        "excerpt": "Guía técnica paso a paso para implementar un agente de recuperación aumentada con datos empresariales reales.",
+        "date": "8 Mar 2025"
+      },
+      "post_3": {
+        "category": "Microsoft Fabric",
+        "title": "Microsoft Fabric Mirroring: sincronización sin ETL para tu lakehouse",
+        "excerpt": "Exploramos la nueva funcionalidad de Mirroring en Microsoft Fabric y cómo puede simplificar radicalmente tu arquitectura.",
+        "date": "1 Mar 2025"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Built at the summit. Engineered for the future.",
+    "services_title": "Servicios",
+    "company_title": "Empresa",
+    "contact_title": "Contacto",
+    "newsletter_placeholder": "Tu email corporativo",
+    "newsletter_cta": "Suscribirse",
+    "newsletter_label": "Insights de datos cada semana",
+    "copyright": "© 2025 ARKMAPIX. Todos los derechos reservados.",
+    "location": "Medellín, Colombia",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "links": {
+      "about": "Nosotros",
+      "cases": "Casos de éxito",
+      "academy": "Academia",
+      "labs": "Labs",
+      "blog": "Blog",
+      "contact": "Contacto"
+    }
+  },
+  "contact": {
+    "hero_title": "Hablemos de tu proyecto",
+    "hero_subtitle": "Cuéntanos qué estás construyendo y nuestro equipo te responderá en menos de 24 horas.",
+    "form": {
+      "name": "Nombre completo",
+      "email": "Email corporativo",
+      "company": "Empresa",
+      "country": "País",
+      "service": "Servicio de interés",
+      "message": "Cuéntanos sobre tu proyecto",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado! Te responderemos pronto.",
+      "error": "Ocurrió un error. Por favor intenta de nuevo.",
+      "select_country": "Selecciona tu país",
+      "select_service": "Selecciona un servicio"
+    },
+    "info": {
+      "email_label": "Email",
+      "email_value": "hola@arkmapix.com",
+      "response_time": "Respondemos en menos de 24 horas",
+      "schedule_label": "Agenda una llamada",
+      "schedule_cta": "Reservar en Calendly",
+      "location_label": "Ubicación",
+      "location_value": "Medellín, Colombia"
+    }
+  },
+  "meta": {
+    "home": {
+      "title": "ARKMAPIX — Arquitectura de Datos e Inteligencia Artificial",
+      "description": "Consultora latinoamericana de datos, analítica e inteligencia artificial. Diseñamos arquitecturas que escalan con tu negocio. Azure Databricks, Microsoft Fabric, AI Agents."
+    },
+    "about": {
+      "title": "Nosotros — ARKMAPIX",
+      "description": "Conoce al equipo detrás de ARKMAPIX, nuestra filosofía y cómo construimos soluciones de datos de clase mundial desde Colombia."
+    },
+    "services": {
+      "title": "Servicios — ARKMAPIX",
+      "description": "Arquitectura de datos, data engineering, analítica avanzada, inteligencia artificial y más. Descubre nuestros servicios especializados."
+    },
+    "cases": {
+      "title": "Casos de Éxito — ARKMAPIX",
+      "description": "Proyectos de datos con impacto real. Casos de éxito en retail, finanzas, manufactura y salud."
+    },
+    "contact": {
+      "title": "Contacto — ARKMAPIX",
+      "description": "Agenda una llamada con nuestros arquitectos de datos. Respondemos en menos de 24 horas."
+    }
+  }
+}
