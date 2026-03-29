@@ -41,20 +41,20 @@
     "subheadline": "From architecture to artificial intelligence, we cover the entire data lifecycle.",
     "see_more": "See more",
     "items": {
-      "data_architecture": {
-        "name": "Data Architecture",
+      "software_engineering": {
+        "name": "Software Engineering",
         "description": "Design of Medallion, Lakehouse and Data Mesh platforms on Azure Databricks and Microsoft Fabric for scaling enterprises."
       },
-      "data_engineering": {
-        "name": "Data Engineering",
+      "ai_ml": {
+        "name": "AI & ML",
         "description": "Lakeflow pipelines, ETL/ELT, Azure Data Factory and Databricks Asset Bundles. Data ready when you need it."
       },
-      "advanced_analytics": {
-        "name": "Advanced Analytics",
+      "data_analytics": {
+        "name": "Data & Analytics",
         "description": "BI, executive dashboards, Power BI, Unity Catalog and data governance. Evidence-based decisions."
       },
-      "artificial_intelligence": {
-        "name": "Artificial Intelligence",
+      "business_transformation": {
+        "name": "Business Transformation",
         "description": "AI agents, LLMs, MLOps, Azure AI Foundry and RAG pipelines. AI at the service of your business."
       },
       "cloud_devops": {
@@ -157,7 +157,7 @@
   "cta_banner": {
     "headline": "Ready to transform your data?",
     "subheadline": "Schedule a call with our data architects and discover how ARKMAPIX can accelerate your digital transformation.",
-    "cta_primary": "Schedule a call",
+    "cta_primary": "Send message",
     "cta_secondary": "See services",
     "stat_label": "Projects successfully delivered"
   },
@@ -194,8 +194,8 @@
     "newsletter_placeholder": "Your corporate email",
     "newsletter_cta": "Subscribe",
     "newsletter_label": "Data insights every week",
-    "copyright": "© 2025 ARKMAPIX. All rights reserved.",
-    "location": "Medellín, Colombia",
+    "copyright": "&copy; 2025 ARKMAPIX. All rights reserved.",
+    "location": "(+57) 350 885 8369",
     "privacy": "Privacy",
     "terms": "Terms",
     "links": {

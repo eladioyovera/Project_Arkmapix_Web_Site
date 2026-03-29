@@ -76,7 +76,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={inter.variable} suppressHydrationWarning>
+      <html lang={locale} className={inter.variable} suppressHydrationWarning data-scroll-behavior="smooth">
       <head>
         {/* JSON-LD: Organization schema */}
         <script

@@ -7,10 +7,34 @@ import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
 
 const CASES = [
-  { key: "case_1", slug: "retailco-data-platform",  industry: "Retail",        accent: "#00C6FF", bg: "#0F2040", tags: ["Databricks", "Medallion", "Azure"] },
-  { key: "case_2", slug: "ai-supply-chain",          industry: "Manufacturing", accent: "#7B2FF7", bg: "#1A0F3D", tags: ["Azure AI", "RAG", "LLM"] },
-  { key: "case_3", slug: "data-mesh-finanzas",       industry: "Finance",       accent: "#0072FF", bg: "#0F1A3D", tags: ["Data Mesh", "Unity Catalog"] },
-  { key: "case_4", slug: "analytics-salud",          industry: "Healthcare",    accent: "#00FFD1", bg: "#0F3D2A", tags: ["Fabric", "Real-time", "Power BI"] },
+  { 
+    key: "case_1", 
+    slug: "retailco-data-platform",  
+    img: "/use-cases/use-case-data.png",        
+    accent: "#00C6FF", bg: "#0F2040", 
+    tags: ["Databricks", "Medallion", "Azure"] 
+},
+  { 
+    key: "case_2", 
+    slug: "ai-supply-chain",          
+    img: "/use-cases/use-case-ai.png",
+     accent: "#7B2FF7", 
+     bg: "#1A0F3D", 
+     tags: ["Azure AI", "RAG", "LLM"] },
+  { 
+    key: "case_3", 
+    slug: "data-mesh-finanzas",       
+    img: "/use-cases/use-case-aq.png",       
+    accent: "#0072FF", 
+    bg: "#0F1A3D", 
+    tags: ["Data Mesh", "Unity Catalog"] },
+  { 
+    key: "case_4", 
+    slug: "analytics-salud",          
+    img: "/use-cases/use-case-software.png",    
+    accent: "#00FFD1", 
+    bg: "#0F3D2A", 
+    tags: ["Fabric", "Real-time", "Power BI"] },
 ] as const;
 
 export function CaseStudiesGrid() {
@@ -63,18 +87,19 @@ export function CaseStudiesGrid() {
                     className="relative h-44 flex items-end p-5"
                     style={{ background: `linear-gradient(135deg, ${c.bg} 0%, #0A0D14 100%)` }}
                   >
-                    <div
+                    {/* <div
                       className="absolute top-0 left-0 right-0 bottom-0 opacity-15"
                       style={{ background: `radial-gradient(circle at 30% 50%, ${c.accent}, transparent 60%)` }}
                       aria-hidden
-                    />
+                    /> */}
                     {/* Industry badge */}
-                    <span
+                    {/* <span
                       className="relative text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full"
                       style={{ background: `${c.accent}20`, color: c.accent, border: `1px solid ${c.accent}40` }}
                     >
                       {c.industry}
-                    </span>
+                    </span> */}
+                  <img src={c.img}/>
                   </div>
 
                   {/* Content */}

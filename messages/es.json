@@ -30,7 +30,7 @@
     "stat_countries": "países",
     "stat_years": "años de experiencia",
     "stat_projects_num": "50+",
-    "stat_countries_num": "8",
+    "stat_countries_num": "3",
     "stat_years_num": "6+",
     "cta": "Conocer nuestra historia",
     "image_alt": "Machu Picchu — inspiración arquitectónica de ARKMAPIX"
@@ -41,20 +41,20 @@
     "subheadline": "Desde la arquitectura hasta la inteligencia artificial, cubrimos todo el ciclo de vida del dato.",
     "see_more": "Ver más",
     "items": {
-      "data_architecture": {
-        "name": "Arquitectura de Datos",
+      "software_engineering": {
+        "name": "Ingeniería de Software",
         "description": "Diseño de plataformas Medallion, Lakehouse y Data Mesh sobre Azure Databricks y Microsoft Fabric para empresas que escalan."
       },
-      "data_engineering": {
-        "name": "Data Engineering",
+      "ai_ml": {
+        "name": "AI & ML",
         "description": "Pipelines Lakeflow, ETL/ELT, Azure Data Factory y Databricks Asset Bundles. Datos listos cuando los necesitas."
       },
-      "advanced_analytics": {
-        "name": "Analítica Avanzada",
+      "data_analytics": {
+        "name": "Data & Analítica",
         "description": "BI, dashboards ejecutivos, Power BI, Unity Catalog y gobierno del dato. Decisiones basadas en evidencia."
       },
-      "artificial_intelligence": {
-        "name": "Inteligencia Artificial",
+      "business_transformation": {
+        "name": "Transformación Empresarial",
         "description": "Agentes IA, LLMs, MLOps, Azure AI Foundry y RAG pipelines. La IA al servicio de tu negocio."
       },
       "cloud_devops": {
@@ -157,7 +157,7 @@
   "cta_banner": {
     "headline": "¿Listo para transformar tus datos?",
     "subheadline": "Agenda una llamada con nuestros arquitectos de datos y descubre cómo ARKMAPIX puede acelerar tu transformación digital.",
-    "cta_primary": "Agendar llamada",
+    "cta_primary": "Enviar mensaje",
     "cta_secondary": "Ver servicios",
     "stat_label": "Proyectos entregados con éxito"
   },
@@ -187,7 +187,7 @@
     }
   },
   "footer": {
-    "tagline": "Built at the summit. Engineered for the future.",
+    "tagline": "Diseñamos arquitecturas de datos que escalan con tu negocio.",
     "services_title": "Servicios",
     "company_title": "Empresa",
     "contact_title": "Contacto",
@@ -195,7 +195,7 @@
     "newsletter_cta": "Suscribirse",
     "newsletter_label": "Insights de datos cada semana",
     "copyright": "© 2025 ARKMAPIX. Todos los derechos reservados.",
-    "location": "Medellín, Colombia",
+    "location": "(+57) 350 885 8369",
     "privacy": "Privacidad",
     "terms": "Términos",
     "links": {
