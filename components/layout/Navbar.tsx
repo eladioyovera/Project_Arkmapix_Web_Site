@@ -68,7 +68,7 @@ export function Navbar() {
     };
 
     const serviceItems = [
-        { key: "software_engineering", slug: "arquitectura-datos" },
+        { key: "software_engineering", slug: "software-engineering" },
         { key: "ai_ml", slug: "ai-ml" },
         { key: "data_analytics", slug: "data-analytics" },
         { key: "business_transformation", slug: "business-transformation" },

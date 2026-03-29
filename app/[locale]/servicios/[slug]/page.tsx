@@ -11,9 +11,9 @@ const SERVICE_CONTENT: Record<string, Record<"es" | "en", {
   benefits: { title: string; body: string }[];
   tech: string[];
 }>> = {
-  "arquitectura-datos": {
+  "software-engineering": {
     es: {
-      name: "Arquitectura de Datos",
+      name: "Ingeniería de Software",
       tagline: "La plataforma sobre la que construyes el futuro de tu empresa.",
       description: "Diseñamos plataformas de datos modernas, escalables y gobernadas que permiten a tu organización explotar el valor de sus datos. Desde Data Lakes hasta arquitecturas Medallion y Data Mesh, construimos la fundación correcta para cada caso de negocio.",
       capabilities: ["Medallion Architecture (Bronze/Silver/Gold)", "Data Mesh & Lakehouse Design", "Azure Databricks + Microsoft Fabric", "Unity Catalog & Data Governance", "Evaluación y migración de data warehouses legacy", "Diseño de modelos dimensionales y semánticos"],
@@ -26,7 +26,7 @@ const SERVICE_CONTENT: Record<string, Record<"es" | "en", {
       tech: ["Azure Databricks", "Microsoft Fabric", "Delta Lake", "Apache Spark", "Unity Catalog", "Azure Data Lake Storage"],
     },
     en: {
-      name: "Data Architecture",
+      name: "Software Engineering",
       tagline: "The platform on which you build the future of your company.",
       description: "We design modern, scalable, and governed data platforms that enable your organization to unlock the value of its data. From Data Lakes to Medallion and Data Mesh architectures, we build the right foundation for every business case.",
       capabilities: ["Medallion Architecture (Bronze/Silver/Gold)", "Data Mesh & Lakehouse Design", "Azure Databricks + Microsoft Fabric", "Unity Catalog & Data Governance", "Legacy data warehouse evaluation and migration", "Dimensional and semantic model design"],
@@ -39,9 +39,9 @@ const SERVICE_CONTENT: Record<string, Record<"es" | "en", {
       tech: ["Azure Databricks", "Microsoft Fabric", "Delta Lake", "Apache Spark", "Unity Catalog", "Azure Data Lake Storage"],
     },
   },
-  "data-engineering": {
+  "ai-ml": {
     es: {
-      name: "Data Engineering",
+          name: "AI & ML",
       tagline: "Datos listos, confiables y en tiempo real cuando los necesitas.",
       description: "Construimos los pipelines y procesos que mueven, transforman y entregan datos de alta calidad a través de toda tu organización. Trabajamos con las herramientas más modernas del ecosistema Azure y Databricks para garantizar confiabilidad, trazabilidad y eficiencia.",
       capabilities: ["Pipelines ETL/ELT con Databricks Lakeflow", "Azure Data Factory & Integration Runtimes", "Databricks Asset Bundles (DAB)", "Ingesta en tiempo real con Event Hubs y Kafka", "Orquestación con Databricks Workflows", "Data Quality & Testing con Great Expectations"],
@@ -54,7 +54,7 @@ const SERVICE_CONTENT: Record<string, Record<"es" | "en", {
       tech: ["Databricks Lakeflow", "Azure Data Factory", "Databricks Asset Bundles", "Apache Kafka", "Delta Live Tables", "Azure Event Hubs"],
     },
     en: {
-      name: "Data Engineering",
+        name: "AI & ML",
       tagline: "Ready, reliable, and real-time data when you need it.",
       description: "We build the pipelines and processes that move, transform, and deliver high-quality data throughout your organization. We work with the most modern tools in the Azure and Databricks ecosystem to guarantee reliability, traceability, and efficiency.",
       capabilities: ["ETL/ELT Pipelines with Databricks Lakeflow", "Azure Data Factory & Integration Runtimes", "Databricks Asset Bundles (DAB)", "Real-time ingestion with Event Hubs and Kafka", "Orchestration with Databricks Workflows", "Data Quality & Testing with Great Expectations"],
@@ -67,9 +67,9 @@ const SERVICE_CONTENT: Record<string, Record<"es" | "en", {
       tech: ["Databricks Lakeflow", "Azure Data Factory", "Databricks Asset Bundles", "Apache Kafka", "Delta Live Tables", "Azure Event Hubs"],
     },
   },
-  "analitica-avanzada": {
+  "data-analytics": {
     es: {
-      name: "Analítica Avanzada",
+          name: "Data & Analítica",
       tagline: "Decisiones más inteligentes, basadas en datos, tomadas más rápido.",
       description: "Transformamos datos en insights accionables mediante dashboards ejecutivos, modelos estadísticos y plataformas de BI que toda tu organización puede usar. Desde reportes operacionales hasta analítica predictiva, cubrimos todo el espectro analítico.",
       capabilities: ["Dashboards ejecutivos en Power BI", "Semantic models con Analysis Services", "Unity Catalog & data governance", "Reportes self-service para usuarios de negocio", "Analítica predictiva y estadística", "Real-time analytics con Microsoft Fabric"],
@@ -82,7 +82,7 @@ const SERVICE_CONTENT: Record<string, Record<"es" | "en", {
       tech: ["Power BI", "Microsoft Fabric", "Azure Analysis Services", "Unity Catalog", "DAX", "Power Query"],
     },
     en: {
-      name: "Advanced Analytics",
+        name: "Data & Analytics",
       tagline: "Smarter, data-driven decisions made faster.",
       description: "We transform data into actionable insights through executive dashboards, statistical models, and BI platforms that your entire organization can use. From operational reports to predictive analytics, we cover the full analytical spectrum.",
       capabilities: ["Executive dashboards in Power BI", "Semantic models with Analysis Services", "Unity Catalog & data governance", "Self-service analytics for business users", "Predictive and statistical analytics", "Real-time analytics with Microsoft Fabric"],
@@ -95,9 +95,9 @@ const SERVICE_CONTENT: Record<string, Record<"es" | "en", {
       tech: ["Power BI", "Microsoft Fabric", "Azure Analysis Services", "Unity Catalog", "DAX", "Power Query"],
     },
   },
-  "inteligencia-artificial": {
+  "business-transformation": {
     es: {
-      name: "Inteligencia Artificial",
+          name: "Transformación Empresarial",
       tagline: "La IA más avanzada, integrada directamente en tus procesos de negocio.",
       description: "Diseñamos e implementamos soluciones de inteligencia artificial que generan valor real: desde agentes conversacionales hasta sistemas de recomendación y automatización de procesos. Usamos Azure AI Foundry, OpenAI y frameworks open-source para construir la solución correcta para cada caso.",
       capabilities: ["AI Agents y asistentes conversacionales", "RAG Pipelines sobre datos empresariales", "Azure AI Foundry & OpenAI Service", "MLOps y despliegue en producción", "Computer Vision e NLP aplicado", "Fine-tuning de modelos para dominios específicos"],
@@ -110,7 +110,7 @@ const SERVICE_CONTENT: Record<string, Record<"es" | "en", {
       tech: ["Azure AI Foundry", "OpenAI Service", "Azure Databricks", "MLflow", "LangChain", "Azure Machine Learning"],
     },
     en: {
-      name: "Artificial Intelligence",
+        name: "Business Transformation",
       tagline: "The most advanced AI, integrated directly into your business processes.",
       description: "We design and implement AI solutions that generate real value: from conversational agents to recommendation systems and process automation. We use Azure AI Foundry, OpenAI, and open-source frameworks to build the right solution for each use case.",
       capabilities: ["AI Agents and conversational assistants", "RAG Pipelines on enterprise data", "Azure AI Foundry & OpenAI Service", "MLOps and production deployment", "Applied Computer Vision and NLP", "Model fine-tuning for specific domains"],
@@ -190,7 +190,7 @@ export default async function ServiceSlugPage({
   const t = await getTranslations({ locale, namespace: "service_detail" });
 
   const lang = (locale === "en" ? "en" : "es") as "es" | "en";
-  const svc = SERVICE_CONTENT[slug]?.[lang] ?? SERVICE_CONTENT["arquitectura-datos"][lang];
+    const svc = SERVICE_CONTENT[slug]?.[lang] //?? SERVICE_CONTENT["software-engineering"][lang];
 
   return (
     <div style={{ background: "#0A0D14", minHeight: "100vh" }}>
@@ -220,10 +220,10 @@ export default async function ServiceSlugPage({
                 backgroundClip: "text",
               }}
             >
-              {svc.name}
+              {svc?.name}
             </h1>
-            <p className="text-xl font-medium mb-6" style={{ color: "#F0F4F8" }}>{svc.tagline}</p>
-            <p className="leading-relaxed mb-8" style={{ color: "#8090A8", fontSize: "17px" }}>{svc.description}</p>
+            <p className="text-xl font-medium mb-6" style={{ color: "#F0F4F8" }}>{svc?.tagline}</p>
+            <p className="leading-relaxed mb-8" style={{ color: "#8090A8", fontSize: "17px" }}>{svc?.description}</p>
             <Link
               href={`/${locale}/contacto`}
               className="btn-primary inline-flex items-center gap-2 px-7 py-3.5 rounded-lg font-semibold"
@@ -239,7 +239,7 @@ export default async function ServiceSlugPage({
               {t("capabilities_label")}
             </div>
             <ul className="space-y-3">
-              {svc.capabilities.map((cap) => (
+              {svc?.capabilities.map((cap) => (
                 <li key={cap} className="flex items-start gap-3">
                   <CheckCircle size={16} style={{ color: "#00C6FF", flexShrink: 0, marginTop: "2px" }} />
                   <span className="text-sm" style={{ color: "#F0F4F8" }}>{cap}</span>
@@ -253,7 +253,7 @@ export default async function ServiceSlugPage({
       {/* Benefits */}
       <div className="px-6 pb-24" style={{ maxWidth: "1280px", margin: "0 auto" }}>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
-          {svc.benefits.map((b, i) => (
+          {svc?.benefits.map((b, i) => (
             <div
               key={b.title}
               className="rounded-xl p-6"
@@ -285,7 +285,7 @@ export default async function ServiceSlugPage({
             {t("tech_label")}
           </div>
           <div className="flex flex-wrap gap-3">
-            {svc.tech.map((tech) => (
+            {svc?.tech.map((tech) => (
               <span
                 key={tech}
                 className="text-sm font-mono px-4 py-2 rounded-lg"

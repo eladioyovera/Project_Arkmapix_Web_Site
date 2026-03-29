@@ -5,6 +5,7 @@ import { motion, useInView } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
+import Image from "next/image";
 
 const CASES = [
   { 
@@ -83,24 +84,16 @@ export function CaseStudiesGrid() {
                   aria-label={title}
                 >
                   {/* Image placeholder — replace with <Image> from /public/images/cases/ */}
-                  <div
-                    className="relative h-44 flex items-end p-5"
-                    style={{ background: `linear-gradient(135deg, ${c.bg} 0%, #0A0D14 100%)` }}
-                  >
-                    {/* <div
-                      className="absolute top-0 left-0 right-0 bottom-0 opacity-15"
-                      style={{ background: `radial-gradient(circle at 30% 50%, ${c.accent}, transparent 60%)` }}
-                      aria-hidden
-                    /> */}
-                    {/* Industry badge */}
-                    {/* <span
-                      className="relative text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full"
-                      style={{ background: `${c.accent}20`, color: c.accent, border: `1px solid ${c.accent}40` }}
-                    >
-                      {c.industry}
-                    </span> */}
-                  <img src={c.img}/>
-                  </div>
+                        <div className="relative w-full h-48">
+                            <Image
+                                src={c.img}
+                                alt={title}
+                                fill
+                                className="object-cover w-full h-full"
+                                sizes="(max-width: 768px) 100vw, 50vw"
+                                priority={i === 0}
+                            />
+                        </div>
 
                   {/* Content */}
                   <div className="p-6">
