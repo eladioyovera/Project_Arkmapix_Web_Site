@@ -6,10 +6,8 @@ import { AboutSection } from "@/components/sections/AboutSection";
 import { ServicesGrid } from "@/components/sections/ServicesGrid";
 import { ProcessStepper } from "@/components/sections/ProcessStepper";
 import { CaseStudiesGrid } from "@/components/sections/CaseStudiesGrid";
-import { TechStack } from "@/components/sections/TechStack";
 import { TestimonialsCarousel } from "@/components/sections/TestimonialsCarousel";
 import { CtaBanner } from "@/components/sections/CtaBanner";
-import { BlogPreview } from "@/components/sections/BlogPreview";
 
 export async function generateMetadata({
   params,
@@ -45,17 +43,11 @@ export default function HomePage() {
       {/* 06 — CASE STUDIES */}
       <CaseStudiesGrid />
 
-      {/* 07 — TECH STACK */}
-      <TechStack />
-
-      {/* 08 — TESTIMONIALS */}
+      {/* 07 — TESTIMONIALS */}
       <TestimonialsCarousel />
 
       {/* 09 — CTA BANNER */}
       <CtaBanner />
-
-      {/* 10 — BLOG PREVIEW */}
-      <BlogPreview />
     </>
   );
 }

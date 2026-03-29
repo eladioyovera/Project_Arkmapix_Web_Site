@@ -1,6 +1,5 @@
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
-import { GradientText } from "@/components/ui/GradientText";
 import { CaseStudiesGrid } from "@/components/sections/CaseStudiesGrid";
 
 export async function generateMetadata({
@@ -13,15 +12,31 @@ export async function generateMetadata({
   return { title: t("title"), description: t("description") };
 }
 
-export default function CasosPage() {
+export default async function CasosPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "cases" });
+
   return (
-    <div style={{ background: "var(--bg-primary)", minHeight: "100vh" }} className="pt-20">
-      <div className="pt-8 pb-4 px-4 text-center">
-        <h1 className="font-bold text-text-primary mb-4" style={{ fontSize: "clamp(32px, 4vw, 52px)" }}>
-          <GradientText>Casos de Éxito</GradientText>
+    <div style={{ background: "#0A0D14", minHeight: "100vh" }} className="pt-20">
+      <div className="pt-12 pb-4 px-6 text-center">
+        <h1
+          className="font-bold mb-4"
+          style={{
+            fontSize: "clamp(32px, 4vw, 52px)",
+            background: "linear-gradient(135deg, #00C6FF 0%, #0072FF 50%, #7B2FF7 100%)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+            backgroundClip: "text",
+          }}
+        >
+          {t("headline")}
         </h1>
-        <p className="text-text-secondary text-lg max-w-2xl mx-auto">
-          Proyectos reales con impacto medible en empresas líderes de la región.
+        <p className="text-lg max-w-2xl mx-auto" style={{ color: "#8090A8" }}>
+          {t("subheadline")}
         </p>
       </div>
       <CaseStudiesGrid />
