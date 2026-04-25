@@ -12,8 +12,8 @@
   },
   "hero": {
     "badge": "ARKMAPIX · Data & AI Architecture",
-    "headline_1": "Data architecture.",
-    "headline_2": "Intelligence without limits.",
+    "headline_1": "Data that builds",
+    "headline_2": "Growing organizations",
     "subheadline": "We transform data into competitive advantages. We design architectures that scale with your business.",
     "cta_primary": "See our services",
     "cta_secondary": "Learn more",
@@ -24,13 +24,13 @@
   },
   "about": {
     "label": "ABOUT ARKMAPIX",
-    "headline": "Built at the summit. Designed for the future.",
-    "body": "Like the citadel of Machu Picchu, built to defy time and altitude, our data architectures are designed to be durable, precise and scalable. From Medellín, Colombia, we bring data intelligence to companies across Latin America and the world.",
+    "headline": "We help you grow your business.",
+    "body": "We design and develop comprehensive data, software, and artificial intelligence solutions that turn your organization’s information into its greatest competitive advantage.",
     "stat_projects": "projects",
     "stat_countries": "countries",
     "stat_years": "years of experience",
-    "stat_projects_num": "50+",
-    "stat_countries_num": "8",
+    "stat_projects_num": "10+",
+    "stat_countries_num": "2",
     "stat_years_num": "6+",
     "cta": "Our story",
     "image_alt": "Machu Picchu — ARKMAPIX architectural inspiration"
@@ -100,28 +100,16 @@
     "see_case": "View full case",
     "items": {
       "case_1": {
-        "title": "Unified Data Platform for Multinational Retailer",
-        "industry": "Retail",
+        "title": "Unified Data Platform for Construction Companies",
+        "industry": "Real state",
         "result": "70% reduction in processing time",
         "description": "Migration from legacy data warehouse to Medallion architecture on Azure Databricks, unifying 15 data sources."
       },
       "case_2": {
-        "title": "AI Agent for Supply Chain Optimization",
-        "industry": "Manufacturing",
-        "result": "$2M USD in annual savings",
-        "description": "LLM agent implementation with RAG over order history and supplier catalog."
-      },
-      "case_3": {
-        "title": "Data Mesh for Financial Services Company",
-        "industry": "Finance",
-        "result": "3x faster regulatory reports",
-        "description": "Data Mesh architecture with Unity Catalog and data governance for regulatory compliance."
-      },
-      "case_4": {
-        "title": "Analytics Center for Healthcare Sector",
-        "industry": "Healthcare",
-        "result": "98% critical data availability",
-        "description": "Real-time clinical analytics platform with dashboards for medical and executive teams."
+        "title": "AI Agent for CI/CD Deployment Processes",
+        "industry": "Real state",
+        "result": "Agile code review processes, 80% reduction in deployment time.",
+        "description": "Implementation of an LLM agent that reviews static code and generates quick and concise pass/fail results for developers."
       }
     }
   },
@@ -194,7 +182,7 @@
     "newsletter_placeholder": "Your corporate email",
     "newsletter_cta": "Subscribe",
     "newsletter_label": "Data insights every week",
-    "copyright": "&copy; 2025 ARKMAPIX. All rights reserved.",
+    "copyright": "© {year} ARKMAPIX. All rights reserved.",
     "location": "(+57) 350 885 8369",
     "privacy": "Privacy",
     "terms": "Terms",
@@ -257,7 +245,7 @@
     }
   },
   "service_detail": {
-    "back": "← Back to Services",
+    "back": "Back to Services",
     "capabilities_label": "Key capabilities",
     "process_label": "How we deliver",
     "tech_label": "Technologies",
@@ -266,7 +254,7 @@
     "cta_btn": "Schedule a free consultation"
   },
   "case_detail": {
-    "back": "← Back to Cases",
+    "back": "Back to Cases",
     "challenge": "The Challenge",
     "solution": "The Solution",
     "results": "Results",
@@ -279,9 +267,9 @@
     "page_title": "About ARKMAPIX",
     "page_subtitle": "Built at the summit. Designed for the future.",
     "mission_label": "Our Mission",
-    "mission_body": "To democratize data intelligence across Latin America by designing robust architectures that enable companies to make smarter, faster, evidence-based decisions.",
+    "mission_body": "Democratizing data intelligence on a global scale by designing robust architectures that enable companies to make smarter, faster, and evidence-based decisions.",
     "vision_label": "Our Vision",
-    "vision_body": "To be the reference data consultancy in LATAM, recognized for the technical quality of our solutions, genuine knowledge transfer, and real business impact for our clients.",
+    "vision_body": "To be the world’s leading data and AI organization, recognized for the technical quality of our solutions, our genuine knowledge transfer, and the real impact we have on our clients’ businesses.",
     "values_label": "Our Values",
     "v1_title": "Technical excellence",
     "v1_body": "We build on solid foundations — clean code, well-documented architectures, and top-tier engineering practices.",
@@ -289,10 +277,6 @@
     "v2_body": "Direct communication, clear pricing, and no surprises. Our clients always know exactly where their project stands.",
     "v3_title": "Knowledge transfer",
     "v3_body": "We don't create dependency. We train our clients' teams to operate and evolve the solutions we build.",
-    "v4_title": "Latin American pride",
-    "v4_body": "World-class talent from Colombia. We understand the context, language, and unique challenges of companies in our region.",
-    "team_label": "The team",
-    "team_body": "We are a team of data architects, engineers, and data scientists certified in Azure Databricks and Microsoft Fabric, with experience in high-impact projects across Latin America.",
     "cta_headline": "Ready to work together?",
     "cta_btn": "Let's talk about your project"
   },
@@ -325,5 +309,208 @@
     "services_page_subtitle": "High-impact data solutions for scaling enterprises.",
     "cases_page_title": "Case Studies",
     "cases_page_subtitle": "Real projects with measurable impact in leading companies across the region."
-  }
+  },
+  "privacy": {
+    "meta_title": "Privacy Policy — ARKMAPIX",
+    "meta_description": "Learn how ARKMAPIX collects, uses and protects your personal information when you use our website and contact form.",
+    "badge": "LEGAL · PRIVACY",
+    "title": "Privacy Policy",
+    "subtitle": "We are committed to protecting your personal information and your right to privacy. This policy explains how we handle data collected through our website and contact form.",
+    "last_updated": "Last updated: January 1, 2025",
+    "sections": [
+        {
+        "id": "responsible",
+        "title": "1. Data Controller",
+        "content": [
+                "ARKMAPIX (hereinafter \"ARKMAPIX\", \"we\", \"us\", or \"our\") is the data controller responsible for your personal information collected through this website.",
+                "Contact: contacto@arkmapix.com | Location: Medellín, Colombia."
+            ]
+        },
+        {
+        "id": "data-collected",
+        "title": "2. Information We Collect",
+        "content": [
+                "We only collect information you voluntarily provide through our contact form. This includes:",
+                "• Full name and corporate email address.",
+                "• Company name and country of operation.",
+                "• Service of interest and project description.",
+                "We do not collect sensitive personal data, payment information, or data from minors under 18 years of age."
+            ]
+        },
+        {
+        "id": "purpose",
+        "title": "3. How We Use Your Information",
+        "content": [
+                "The data you submit through the contact form is used exclusively to:",
+                "• Respond to your inquiry or project request within 24 business hours.",
+                "• Evaluate the technical and commercial fit between your needs and our services.",
+                "• Follow up on the conversation if you have not received a response.",
+                "We will never use your data for marketing purposes without your explicit prior consent."
+            ]
+        },
+        {
+        "id": "legal-basis",
+        "title": "4. Legal Basis for Processing",
+        "content": [
+                "We process your personal data based on your consent, given when you voluntarily complete and submit our contact form.",
+                "You may withdraw your consent at any time by sending a request to contacto@arkmapix.com. Withdrawal of consent will not affect the lawfulness of processing carried out before withdrawal."
+            ]
+        },
+        {
+        "id": "retention",
+        "title": "5. Data Retention",
+        "content": [
+                "We retain your personal information for as long as necessary to respond to your inquiry and, if applicable, to manage the business relationship that may result.",
+                "If no commercial relationship is established, your data will be deleted within 12 months of last contact.",
+                "You may request deletion of your data at any time by contacting us at contacto@arkmapix.com."
+            ]
+        },
+        {
+        "id": "sharing",
+        "title": "6. Sharing of Information",
+        "content": [
+                "We do not sell, rent, or trade your personal information to third parties.",
+                "We may share your data only with trusted service providers who assist us in operating our website (e.g., email services), under strict confidentiality obligations and solely to the extent necessary.",
+                "We may disclose your information if required by law or valid judicial order."
+            ]
+        },
+        {
+       "id": "rights",
+        "title": "7. Your Rights",
+        "content": [
+                "You have the right to: access the personal data we hold about you; rectify inaccurate or incomplete data; request deletion of your data (right to be forgotten); object to or restrict processing of your data; request data portability in a structured, commonly used format.",
+                "To exercise any of these rights, contact us at contacto@arkmapix.com. We will respond within 30 calendar days."
+            ]
+        },
+        {
+        "id": "security",
+        "title": "8. Security",
+        "content": [
+                "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, accidental loss, destruction, or alteration.",
+                "Our website uses HTTPS encryption for all data transmission. Access to collected data is restricted to authorized personnel only."
+            ]
+        },
+        {
+        "id": "cookies",
+        "title": "9. Cookies and Tracking",
+        "content": [
+                "Our website may use strictly necessary cookies to ensure proper functioning. We do not currently use advertising or tracking cookies.",
+                "You can configure your browser to reject cookies; however, this may affect some website functionality."
+            ]
+        },
+        {
+        "id": "updates",
+        "title": "10. Policy Updates",
+        "content": [
+                "We may update this Privacy Policy periodically to reflect changes in our practices or for legal, technical, or operational reasons.",
+                "We will notify you of material changes by posting the new policy on this page with an updated date. We encourage you to review this page periodically."
+            ]
+        },
+        {
+        "id": "contact-privacy",
+        "title": "11. Contact",
+        "content": [
+                "If you have any questions, concerns, or requests related to this Privacy Policy, please contact us at:",
+                "Email: contacto@arkmapix.com",
+                "We commit to responding to all privacy-related inquiries within 5 business days."
+            ]
+        }
+    ]
+},
+  "terms": {
+    "meta_title": "Terms and Conditions — ARKMAPIX",
+    "meta_description": "Read the terms and conditions that govern the use of the ARKMAPIX website and the submission of information through our contact form.",
+    "badge": "LEGAL · TERMS",
+    "title": "Terms and Conditions",
+    "subtitle": "By accessing and using this website, you agree to these terms and conditions. Please read them carefully before submitting any information.",
+    "last_updated": "Last updated: January 1, 2025",
+    "sections": [
+        {
+        "id": "acceptance",
+        "title": "1. Acceptance of Terms",
+        "content": [
+                "By accessing, browsing, or using the ARKMAPIX website (arkmapix.com) and/or submitting information through our contact form, you agree to be bound by these Terms and Conditions and our Privacy Policy.",
+                "If you do not agree with any part of these terms, please do not use this website or submit your information."
+            ]
+        },
+        {
+        "id": "website-purpose",
+        "title": "2. Purpose of the Website",
+        "content": [
+                "This website is an informational landing page designed to present ARKMAPIX's data architecture and artificial intelligence consulting services, and to allow interested parties to make contact through a form.",
+                "The website does not offer products or services directly for sale through the platform. Any commercial engagement is formalized through separate agreements outside this website."
+            ]
+        },
+        {
+        "id": "form-use",
+        "title": "3. Use of the Contact Form",
+        "content": [
+                "By completing and submitting the contact form, you represent that: (a) the information provided is accurate and truthful; (b) you are acting on your own behalf or with authorization from the organization you represent; (c) you are at least 18 years old.",
+                "Submission of the form does not create any contractual obligation on the part of ARKMAPIX and does not guarantee the provision of any service.",
+                "ARKMAPIX reserves the right not to respond to inquiries that are unclear, offensive, or outside the scope of its services."
+            ]
+        },
+        {
+        "id": "intellectual-property",
+        "title": "4. Intellectual Property",
+        "content": [
+                "All content on this website — including but not limited to texts, graphics, logos, icons, images, and code — is the exclusive property of ARKMAPIX and is protected by applicable intellectual property laws.",
+                "You may not reproduce, distribute, modify, transmit, or use website content for commercial purposes without prior written authorization from ARKMAPIX.",
+                "Unauthorized use of our content constitutes a violation of intellectual property law and may result in legal action."
+            ]
+        },
+        {
+        "id": "liability",
+        "title": "5. Disclaimer of Warranties",
+        "content": [
+                "This website is provided on an \"as is\" basis without warranties of any kind, express or implied, including accuracy, availability, fitness for a particular purpose, or non-infringement.",
+                "ARKMAPIX does not guarantee that the website will be error-free, uninterrupted, or free from viruses or other harmful components.",
+                "The information published on this website is for general informational purposes only and does not constitute technical, legal, financial, or other professional advice."
+            ]
+        },
+        {
+        "id": "limitation",
+        "title": "6. Limitation of Liability",
+        "content": [
+                "To the maximum extent permitted by applicable law, ARKMAPIX and its collaborators, directors, and partners shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from:",
+                "• Use or inability to use this website.",
+                "• Decisions made based on information published on this website.",
+                "• Technical interruptions or security incidents beyond our reasonable control."
+            ]
+        },
+        {
+        "id": "third-party",
+        "title": "7. Third-Party Links",
+        "content": [
+                "This website may contain links to third-party websites for informational purposes. ARKMAPIX has no control over the content, privacy policies, or practices of those sites.",
+                "Inclusion of any link does not imply endorsement or affiliation with the linked site. We recommend reviewing the terms and privacy policies of any third-party sites you visit."
+            ]
+        },
+        {
+        "id": "governing-law",
+        "title": "8. Governing Law and Jurisdiction",
+        "content": [
+                "These Terms and Conditions are governed by the laws of the Republic of Colombia. Any dispute arising in connection with these terms shall be subject to the exclusive jurisdiction of the courts of the city of Medellín, Colombia.",
+                "If any provision of these terms is found to be invalid or unenforceable, the remaining provisions shall remain in full force and effect."
+            ]
+        },
+        {
+        "id": "modifications",
+        "title": "9. Modifications to Terms",
+        "content": [
+                "ARKMAPIX reserves the right to modify these Terms and Conditions at any time. Changes will be posted on this page with an updated date.",
+                "Continued use of the website after any changes constitutes your acceptance of the revised terms. We recommend checking this page periodically."
+            ]
+        },
+        {
+        "id": "contact-terms",
+        "title": "10. Contact",
+        "content": [
+                "If you have any questions about these Terms and Conditions, please contact us at:",
+                "Email: contacto@arkmapix.com",
+                "We will respond to all inquiries within 5 business days."
+            ]
+        }
+    ]
+}
 }

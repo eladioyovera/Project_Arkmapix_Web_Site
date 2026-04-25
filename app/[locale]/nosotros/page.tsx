@@ -32,7 +32,6 @@ export default async function NosotrosPage({
     { title: tp("v1_title"), body: tp("v1_body") },
     { title: tp("v2_title"), body: tp("v2_body") },
     { title: tp("v3_title"), body: tp("v3_body") },
-    { title: tp("v4_title"), body: tp("v4_body") },
   ];
 
   return (
@@ -124,7 +123,7 @@ export default async function NosotrosPage({
               {tp("values_label")}
             </span>
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {values.map((v, i) => (
               <div
                 key={v.title}
@@ -140,33 +139,6 @@ export default async function NosotrosPage({
                 <h3 className="font-semibold mb-2" style={{ color: "#F0F4F8" }}>{v.title}</h3>
                 <p className="text-sm leading-relaxed" style={{ color: "#4A6080" }}>{v.body}</p>
               </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Team */}
-        <div
-          className="rounded-2xl p-10 mb-24"
-          style={{ background: "#0F1825", border: "1px solid #1A2840" }}
-        >
-          <div className="flex items-center gap-3 mb-6">
-            <div className="h-px w-8" style={{ background: "linear-gradient(90deg, #00C6FF, transparent)" }} />
-            <span className="text-xs font-semibold uppercase tracking-widest" style={{ color: "#00C6FF" }}>
-              {tp("team_label")}
-            </span>
-          </div>
-          <p className="text-base leading-relaxed mb-8" style={{ color: "#8090A8", maxWidth: "720px" }}>
-            {tp("team_body")}
-          </p>
-          <div className="flex flex-wrap gap-3">
-            {["Azure Databricks", "Microsoft Fabric", "Azure AI Foundry", "Delta Lake", "Apache Spark", "Power BI"].map((badge) => (
-              <span
-                key={badge}
-                className="text-xs font-mono px-3 py-1.5 rounded-full"
-                style={{ background: "rgba(0,198,255,0.08)", color: "#00C6FF", border: "1px solid rgba(0,198,255,0.2)" }}
-              >
-                {badge}
-              </span>
             ))}
           </div>
         </div>

@@ -21,21 +21,8 @@ const CASES = [
     img: "/use-cases/use-case-ai.png",
      accent: "#7B2FF7", 
      bg: "#1A0F3D", 
-     tags: ["Azure AI", "RAG", "LLM"] },
-  { 
-    key: "case_3", 
-    slug: "data-mesh-finanzas",       
-    img: "/use-cases/use-case-aq.png",       
-    accent: "#0072FF", 
-    bg: "#0F1A3D", 
-    tags: ["Data Mesh", "Unity Catalog"] },
-  { 
-    key: "case_4", 
-    slug: "analytics-salud",          
-    img: "/use-cases/use-case-software.png",    
-    accent: "#00FFD1", 
-    bg: "#0F3D2A", 
-    tags: ["Fabric", "Real-time", "Power BI"] },
+        tags: ["Azure AI", "RAG", "LLM"]
+    },
 ] as const;
 
 export function CaseStudiesGrid() {

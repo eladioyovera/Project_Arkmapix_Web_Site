@@ -10,12 +10,41 @@ import { AcademyIcon } from "../icons/TechIcons";
 
 // Service bullets (what they include, not a paragraph description)
 const SERVICE_DETAILS: Record<string, string[]> = {
-    software_engineering: ["Medallion Architecture", "Data Mesh & Lakehouse", "Azure Databricks, Microsoft Fabric"],
-    ai_ml: ["ETL/ELT Pipelines", "Azure Data Factory", "Databricks Asset Bundles"],
-    data_analytics: ["Power BI Dashboards", "Unity Catalog & Governance", "Executive reporting"],
-    business_transformation: ["AI Agents & LLMs", "RAG Pipelines", "Azure AI Foundry, MLOps"],
-    cloud_devops: ["CI/CD for Data", "Azure DevOps & DAB", "Microsoft Fabric Mirroring"],
-    academy: ["Databricks Certification", "Azure Data Engineer", "Enterprise team training"],
+    software_engineering: [
+        "Arquitecturas empresariales",
+        "Desarrollo de aplicaciones a gran escala",
+        "Diseño y gestión de APIs"
+    ],
+
+    ai_ml: [
+        "Modelos predictivos y machine learning",
+        "Procesamiento de lenguaje natural (NLP)",
+        "MLOps y despliegue de modelos en producción"
+    ],
+
+    data_analytics: [
+        "Dashboards ejecutivos en Power BI",
+        "Modelado de datos y métricas corporativas",
+        "Analítica avanzada y reporting empresarial"
+    ],
+
+    business_transformation: [
+        "Estrategia de transformación digital",
+        "Optimización y automatización de procesos",
+        "Integración de plataformas empresariales"
+    ],
+
+    cloud_devops: [
+        "CI/CD pipelines empresariales",
+        "Infrastructure as Code (Terraform, Bicep)",
+        "Monitoreo, observabilidad y gestión cloud"
+    ],
+
+    academy: [
+        "Programas de formación corporativa",
+        "Upskilling y reskilling tecnológico",
+        "Entrenamiento práctico basado en casos reales"
+    ],
 };
 
 // Inline SVG service icons
@@ -44,7 +73,7 @@ function ServiceIcon({ type }: { type: string }) {
 }
 
 const SERVICES = [
-    { key: "software_engineering", slug: "arquitectura-datos" },
+    { key: "software_engineering", slug: "software-engineering" },
     { key: "ai_ml", slug: "ai-ml" },
     { key: "data_analytics", slug: "data-analytics" },
     { key: "business_transformation", slug: "business-transformation" },

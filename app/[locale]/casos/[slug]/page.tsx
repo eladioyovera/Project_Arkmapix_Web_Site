@@ -3,151 +3,92 @@ import Link from "next/link";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
 const CASE_CONTENT: Record<string, Record<"es" | "en", {
-  title: string;
-  industry: string;
-  accent: string;
-  result: string;
-  challenge: string;
-  solution: string;
-  results: string[];
-  tech: string[];
+    title: string;
+    industry: string;
+    accent: string;
+    result: string;
+    challenge: string;
+    solution: string;
+    results: string[];
+    tech: string[];
 }>> = {
-  "retailco-data-platform": {
-    es: {
-      title: "Plataforma de Datos Unificada para Retailer Multinacional",
-      industry: "Retail",
-      accent: "#00C6FF",
-      result: "70% reducción en tiempo de procesamiento",
-      challenge: "RetailCo operaba con 15 sistemas de datos aislados, un data warehouse legacy que tardaba 8 horas en actualizar reportes nocturnos y equipos de negocio que no podían acceder a datos en tiempo real. El costo de infraestructura crecía sin control y la calidad del dato era inconsistente entre áreas.",
-      solution: "Diseñamos e implementamos una arquitectura Medallion sobre Azure Databricks, unificando las 15 fuentes de datos en un único Lakehouse gobernado. Implementamos pipelines ELT con Lakeflow, Unity Catalog para governance y dashboards en Power BI con actualizaciones cada 15 minutos.",
-      results: [
-        "70% de reducción en tiempo de procesamiento (de 8h a 2.4h)",
-        "15 fuentes de datos unificadas en un único Lakehouse",
-        "Datos disponibles para análisis en menos de 30 minutos",
-        "35% de reducción en costos de infraestructura",
-        "Adopción del 92% de la plataforma en equipos de negocio",
-      ],
-      tech: ["Azure Databricks", "Databricks Lakeflow", "Delta Lake", "Unity Catalog", "Power BI", "Azure Data Lake Storage"],
+    "retailco-data-platform": {
+        es: {
+            title: "Plataforma de Datos Unificada para Constructora",
+            industry: "Real estate",
+            accent: "#00C6FF",
+            result: "70% reducción en tiempo de procesamiento",
+            challenge:
+                "La empresa operaba con múltiples sistemas de datos desconectados, procesos manuales y un data warehouse legacy que generaba reportes con alta latencia. Esto impedía tomar decisiones con periodicidad diaria, como consecuencia elevaba los costos operativos.",
+            solution:
+                "Se migró a una arquitectura Medallion en Azure Databricks, consolidando 15 fuentes de datos en un Lakehouse centralizado. Se implementaron pipelines ELT automatizados y dashboards con periodicidad diaria para todas las áreas de negocio.",
+            results: [
+                "70% de reducción en tiempos de procesamiento",
+                "15 fuentes de datos unificadas",
+                "Disponibilidad de datos en menos de 30 minutos",
+                "Mejora significativa en toma de decisiones",
+                "Reducción de costos operativos",
+            ],
+            tech: ["Azure Databricks", "Delta Lake", "Medallion Architecture", "Power BI", "Azure Data Lake"],
+        },
+        en: {
+            title: "Unified Data Platform for Construction Companies",
+            industry: "Real estate",
+            accent: "#00C6FF",
+            result: "70% reduction in processing time",
+            challenge:
+                "The company was operating with multiple disconnected data systems, manual processes, and a legacy data warehouse that generated reports with high latency. This prevented the company from making decisions on a daily basis, which in turn drove up operating costs.",
+            solution:
+                "The system was migrated to a Medallion architecture on Azure Databricks, consolidating 15 data sources into a centralized Lakehouse. Automated ELT pipelines and dashboards were implemented on a daily basis for all business units.",
+            results: [
+                "70% reduction in processing time",
+                "15 data sources unified",
+                "Data availability in under 30 minutes",
+                "Improved decision-making",
+                "Reduced operational costs",
+            ],
+            tech: ["Azure Databricks", "Delta Lake", "Medallion Architecture", "Power BI", "Azure Data Lake"],
+        },
     },
-    en: {
-      title: "Unified Data Platform for Multinational Retailer",
-      industry: "Retail",
-      accent: "#00C6FF",
-      result: "70% reduction in processing time",
-      challenge: "RetailCo operated with 15 isolated data systems, a legacy data warehouse that took 8 hours to update nightly reports, and business teams unable to access real-time data. Infrastructure costs were growing out of control and data quality was inconsistent across departments.",
-      solution: "We designed and implemented a Medallion architecture on Azure Databricks, unifying the 15 data sources into a single governed Lakehouse. We implemented ELT pipelines with Lakeflow, Unity Catalog for governance, and Power BI dashboards with 15-minute refresh cycles.",
-      results: [
-        "70% reduction in processing time (from 8h to 2.4h)",
-        "15 data sources unified into a single Lakehouse",
-        "Data available for analysis in under 30 minutes",
-        "35% reduction in infrastructure costs",
-        "92% platform adoption across business teams",
-      ],
-      tech: ["Azure Databricks", "Databricks Lakeflow", "Delta Lake", "Unity Catalog", "Power BI", "Azure Data Lake Storage"],
+
+    "ai-supply-chain": {
+        es: {
+            title: "Agente IA para Procesos de Despliegue CI/CD",
+            industry: "Real estate",
+            accent: "#7B2FF7",
+            result: "Reducción del 80% en tiempo de despliegue",
+            challenge:
+                "Los equipos de desarrollo enfrentaban procesos manuales y lentos en revisiones de código, generando cuellos de botella en los despliegues y errores frecuentes en producción.",
+            solution:
+                "Se implementó un agente basado en LLM que analiza código estático, automatiza revisiones y entrega resultados rápidos de aprobación o rechazo, integrándose en pipelines CI/CD.",
+            results: [
+                "80% de reducción en tiempo de despliegue",
+                "Automatización de revisiones de código",
+                "Menor tasa de errores en producción",
+                "Mayor velocidad en entregas",
+                "Mejora en productividad del equipo",
+            ],
+            tech: ["Azure AI", "OpenAI", "LLM", "CI/CD Pipelines", "RAG"],
+        },
+        en: {
+            title: "AI Agent for CI/CD Deployment Processes",
+            industry: "Real estate",
+            accent: "#7B2FF7",
+            result: "80% reduction in deployment time",
+            challenge:
+                "Development teams faced slow and manual code review processes, creating bottlenecks in deployments and increasing production errors.",
+            solution:
+                "An LLM-based agent was implemented to analyze static code, automate reviews, and deliver fast pass/fail results integrated into CI/CD pipelines.",
+            results: [
+                "80% reduction in deployment time",
+                "Automated code reviews",
+                "Lower production error rate",
+                "Faster delivery cycles",
+                "Improved team productivity",
+            ],
+            tech: ["Azure AI", "OpenAI", "LLM", "CI/CD Pipelines", "RAG"],
+        },
     },
-  },
-  "ai-supply-chain": {
-    es: {
-      title: "Agente IA para Optimización de Supply Chain",
-      industry: "Manufactura",
-      accent: "#7B2FF7",
-      result: "$2M USD en ahorros anuales",
-      challenge: "Una empresa manufacturera multinacional enfrentaba rupturas de stock frecuentes, pedidos de emergencia costosos y un equipo de planificación que pasaba el 70% del tiempo procesando datos manualmente en Excel. Los modelos predictivos existentes tenían un error del 35% en demanda.",
-      solution: "Implementamos un agente LLM con RAG sobre el historial completo de pedidos, catálogo de proveedores y datos de demanda histórica. El agente permite consultas en lenguaje natural sobre inventario, genera recomendaciones de compra automáticas y predice rupturas con 21 días de anticipación.",
-      results: [
-        "$2M USD en ahorros anuales por reducción de pedidos de emergencia",
-        "Reducción del 68% en rupturas de stock",
-        "Precisión de predicción de demanda del 91% (desde 65%)",
-        "80% menos tiempo del equipo de planificación en tareas manuales",
-        "ROI del 340% en el primer año de operación",
-      ],
-      tech: ["Azure AI Foundry", "OpenAI Service", "Azure Databricks", "LangChain", "MLflow", "Azure Cognitive Search"],
-    },
-    en: {
-      title: "AI Agent for Supply Chain Optimization",
-      industry: "Manufacturing",
-      accent: "#7B2FF7",
-      result: "$2M USD in annual savings",
-      challenge: "A multinational manufacturing company faced frequent stockouts, costly emergency orders, and a planning team spending 70% of their time manually processing data in Excel. Existing predictive models had a 35% error rate in demand forecasting.",
-      solution: "We implemented an LLM agent with RAG over the complete order history, supplier catalog, and historical demand data. The agent allows natural language queries about inventory, generates automatic purchase recommendations, and predicts stockouts 21 days in advance.",
-      results: [
-        "$2M USD in annual savings from reduced emergency orders",
-        "68% reduction in stockouts",
-        "Demand forecast accuracy of 91% (up from 65%)",
-        "80% less time for the planning team on manual tasks",
-        "340% ROI in the first year of operation",
-      ],
-      tech: ["Azure AI Foundry", "OpenAI Service", "Azure Databricks", "LangChain", "MLflow", "Azure Cognitive Search"],
-    },
-  },
-  "data-mesh-finanzas": {
-    es: {
-      title: "Data Mesh para Empresa de Servicios Financieros",
-      industry: "Finanzas",
-      accent: "#0072FF",
-      result: "3x más velocidad en reportes regulatorios",
-      challenge: "Un grupo financiero con 8 líneas de negocio independientes tenía datos completamente silados, sin gobierno centralizado y con pipelines duplicados en cada área. Los reportes regulatorios tardaban 5 días en generarse y la reconciliación entre áreas era un proceso manual de varios días.",
-      solution: "Implementamos una arquitectura Data Mesh con dominios de datos independientes para cada línea de negocio, Unity Catalog como plano de control centralizado y un contrato de datos estandarizado entre dominios. Los reportes regulatorios se automatizaron completamente con Databricks Workflows.",
-      results: [
-        "3x más velocidad en reportes regulatorios (de 5 días a 40 horas)",
-        "8 dominios de datos independientes con gobierno centralizado",
-        "100% de automatización en reportes de cumplimiento",
-        "60% reducción en pipelines duplicados entre áreas",
-        "Tiempo de onboarding de nuevas fuentes reducido de 3 semanas a 4 días",
-      ],
-      tech: ["Azure Databricks", "Unity Catalog", "Delta Lake", "Databricks Workflows", "Azure DevOps", "Microsoft Fabric"],
-    },
-    en: {
-      title: "Data Mesh for Financial Services Company",
-      industry: "Finance",
-      accent: "#0072FF",
-      result: "3x faster regulatory reports",
-      challenge: "A financial group with 8 independent business lines had completely siloed data, no centralized governance, and duplicate pipelines in each department. Regulatory reports took 5 days to generate and reconciliation between departments was a multi-day manual process.",
-      solution: "We implemented a Data Mesh architecture with independent data domains for each business line, Unity Catalog as the centralized control plane, and standardized data contracts between domains. Regulatory reports were fully automated with Databricks Workflows.",
-      results: [
-        "3x faster regulatory reports (from 5 days to 40 hours)",
-        "8 independent data domains with centralized governance",
-        "100% automation of compliance reports",
-        "60% reduction in duplicate pipelines across departments",
-        "New source onboarding time reduced from 3 weeks to 4 days",
-      ],
-      tech: ["Azure Databricks", "Unity Catalog", "Delta Lake", "Databricks Workflows", "Azure DevOps", "Microsoft Fabric"],
-    },
-  },
-  "analytics-salud": {
-    es: {
-      title: "Centro de Analítica para Sector Salud",
-      industry: "Salud",
-      accent: "#00FFD1",
-      result: "98% disponibilidad de datos críticos",
-      challenge: "Una red de clínicas y hospitales no tenía visibilidad en tiempo real de sus operaciones clínicas. Los médicos tardaban horas en acceder a historiales de pacientes y los directivos tomaban decisiones con datos de la semana anterior. La disponibilidad de datos críticos era del 72%.",
-      solution: "Construimos una plataforma de analítica clínica en tiempo real usando Microsoft Fabric y Power BI Embedded. Integramos 12 sistemas hospitalarios (HIS, EHR, PACS), implementamos alertas automáticas para indicadores críticos y dashboards ejecutivos actualizados cada 5 minutos.",
-      results: [
-        "98% de disponibilidad de datos críticos (desde 72%)",
-        "12 sistemas hospitalarios integrados en una plataforma unificada",
-        "Datos clínicos disponibles en menos de 5 minutos",
-        "45% reducción en tiempo de consulta de historiales de pacientes",
-        "Alertas automáticas que detectaron 3 incidentes críticos en el primer mes",
-      ],
-      tech: ["Microsoft Fabric", "Power BI Embedded", "Azure Data Factory", "Azure Event Hubs", "Azure SQL", "Power BI"],
-    },
-    en: {
-      title: "Analytics Center for Healthcare Sector",
-      industry: "Healthcare",
-      accent: "#00FFD1",
-      result: "98% critical data availability",
-      challenge: "A network of clinics and hospitals had no real-time visibility into clinical operations. Doctors took hours to access patient records and executives made decisions with week-old data. Critical data availability was 72%.",
-      solution: "We built a real-time clinical analytics platform using Microsoft Fabric and Power BI Embedded. We integrated 12 hospital systems (HIS, EHR, PACS), implemented automatic alerts for critical indicators, and executive dashboards updated every 5 minutes.",
-      results: [
-        "98% critical data availability (up from 72%)",
-        "12 hospital systems integrated into a unified platform",
-        "Clinical data available in under 5 minutes",
-        "45% reduction in patient record query time",
-        "Automatic alerts that detected 3 critical incidents in the first month",
-      ],
-      tech: ["Microsoft Fabric", "Power BI Embedded", "Azure Data Factory", "Azure Event Hubs", "Azure SQL", "Power BI"],
-    },
-  },
 };
 
 export default async function CaseSlugPage({

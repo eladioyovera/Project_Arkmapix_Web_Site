@@ -44,7 +44,7 @@ export default function HomePage() {
       <CaseStudiesGrid />
 
       {/* 07 — TESTIMONIALS */}
-      <TestimonialsCarousel />
+     {/*  <TestimonialsCarousel /> */}
 
       {/* 09 — CTA BANNER */}
       <CtaBanner />

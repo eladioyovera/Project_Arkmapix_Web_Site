@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
 import { Mail, ArrowRight, PhoneCall } from "lucide-react";
 import { LinkedinIcon, GithubIcon, YoutubeIcon, InstagramIcon } from "@/components/icons/SocialIcons";
+import { Yesteryear } from "next/font/google";
 
 export function Footer() {
     const t = useTranslations("footer");
@@ -28,9 +29,7 @@ export function Footer() {
 
     const socials = [
         { icon: LinkedinIcon, href: "https://linkedin.com/company/arkmapix", label: "LinkedIn de ARKMAPIX" },
-        { icon: GithubIcon, href: "https://github.com/arkmapix", label: "GitHub de ARKMAPIX" },
-        { icon: YoutubeIcon, href: "https://youtube.com/@arkmapix", label: "YouTube de ARKMAPIX" },
-        { icon: InstagramIcon, href: "https://instagram.com/arkmapix", label: "Instagram de ARKMAPIX" },
+        { icon: InstagramIcon, href: "https://instagram.com/arkmapix.co", label: "Instagram de ARKMAPIX" },
     ];
 
     return (
@@ -185,11 +184,11 @@ export function Footer() {
             <div style={{ borderTop: "1px solid #1A2840" }}>
                 <div className="mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-3" style={{ maxWidth: "1280px" }}>
                     <p className="text-xs" style={{ color: "#4A6080" }}>
-                        {t("copyright")} · {t("location")}
+                        {t("copyright", { year: new Date().getFullYear() })}
                     </p>
                     <div className="flex items-center gap-4">
                         <Link
-                            href={`/${locale}/privacidad`}
+                            href={`/${locale}/privacy`}
                             className="text-xs transition-colors"
                             style={{ color: "#4A6080" }}
                             onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.color = "#8090A8"; }}
@@ -198,7 +197,7 @@ export function Footer() {
                             {t("privacy")}
                         </Link>
                         <Link
-                            href={`/${locale}/terminos`}
+                            href={`/${locale}/terms`}
                             className="text-xs transition-colors"
                             style={{ color: "#4A6080" }}
                             onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.color = "#8090A8"; }}

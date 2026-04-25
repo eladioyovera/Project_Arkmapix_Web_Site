@@ -1,329 +1,516 @@
 {
-  "nav": {
-    "services": "Servicios",
-    "cases": "Casos",
-    "academy": "Academia",
-    "labs": "Labs",
-    "blog": "Blog",
-    "about": "Nosotros",
-    "cta": "Hablemos",
-    "lang_es": "ES",
-    "lang_en": "EN"
-  },
-  "hero": {
-    "badge": "ARKMAPIX · Data & AI Architecture",
-    "headline_1": "Arquitectura de datos.",
-    "headline_2": "Inteligencia sin límites.",
-    "subheadline": "Transformamos datos en ventajas competitivas. Diseñamos arquitecturas que escalan con tu negocio.",
-    "cta_primary": "Ver nuestros servicios",
-    "cta_secondary": "Conocer más",
-    "scroll_hint": "Desplázate hacia abajo"
-  },
-  "clients": {
-    "title": "Empresas que confían en ARKMAPIX"
-  },
-  "about": {
-    "label": "SOBRE ARKMAPIX",
-    "headline": "Construidos en la cima. Diseñados para el futuro.",
-    "body": "Como la ciudadela de Machu Picchu, construida para desafiar el tiempo y la altitud, nuestras arquitecturas de datos están diseñadas para ser duraderas, precisas y escalables. Desde Medellín, Colombia, llevamos inteligencia de datos a empresas en toda América Latina y el mundo.",
-    "stat_projects": "proyectos",
-    "stat_countries": "países",
-    "stat_years": "años de experiencia",
-    "stat_projects_num": "50+",
-    "stat_countries_num": "3",
-    "stat_years_num": "6+",
-    "cta": "Conocer nuestra historia",
-    "image_alt": "Machu Picchu — inspiración arquitectónica de ARKMAPIX"
-  },
-  "services": {
-    "label": "LO QUE CONSTRUIMOS",
-    "headline": "Soluciones de datos de alto impacto",
-    "subheadline": "Desde la arquitectura hasta la inteligencia artificial, cubrimos todo el ciclo de vida del dato.",
-    "see_more": "Ver más",
-    "items": {
-      "software_engineering": {
-        "name": "Ingeniería de Software",
-        "description": "Diseño de plataformas Medallion, Lakehouse y Data Mesh sobre Azure Databricks y Microsoft Fabric para empresas que escalan."
-      },
-      "ai_ml": {
-        "name": "AI & ML",
-        "description": "Pipelines Lakeflow, ETL/ELT, Azure Data Factory y Databricks Asset Bundles. Datos listos cuando los necesitas."
-      },
-      "data_analytics": {
-        "name": "Data & Analítica",
-        "description": "BI, dashboards ejecutivos, Power BI, Unity Catalog y gobierno del dato. Decisiones basadas en evidencia."
-      },
-      "business_transformation": {
-        "name": "Transformación Empresarial",
-        "description": "Agentes IA, LLMs, MLOps, Azure AI Foundry y RAG pipelines. La IA al servicio de tu negocio."
-      },
-      "cloud_devops": {
-        "name": "Cloud & DevOps de Datos",
-        "description": "CI/CD para datos, Azure DevOps, DAB y Microsoft Fabric Mirroring. Infraestructura que no te detiene."
-      },
-      "academy": {
-        "name": "ARKMAPIX Academy",
-        "description": "Formación técnica certificada, cursos enterprise y especializaciones en Databricks y Azure para equipos."
-      }
-    }
-  },
-  "process": {
-    "label": "CÓMO TRABAJAMOS",
-    "headline": "Un proceso probado para resultados reales",
-    "steps": {
-      "diagnosis": {
-        "title": "Diagnóstico",
-        "description": "Evaluamos tu arquitectura actual, identificamos brechas y oportunidades de mejora en tus sistemas de datos."
-      },
-      "architecture": {
-        "title": "Arquitectura",
-        "description": "Diseñamos la solución óptima para tu caso de uso, tecnologías y escala de negocio."
-      },
-      "implementation": {
-        "title": "Implementación",
-        "description": "Construimos y desplegamos con metodología ágil, manteniendo al equipo informado en cada sprint."
-      },
-      "validation": {
-        "title": "Validación",
-        "description": "Pruebas de performance, calidad del dato, seguridad y governance antes de ir a producción."
-      },
-      "scaling": {
-        "title": "Escalamiento",
-        "description": "Optimizamos costos, escalamos capacidades y transferimos conocimiento a tu equipo interno."
-      }
-    }
-  },
-  "cases": {
-    "label": "CASOS DE ÉXITO",
-    "headline": "Resultados que hablan por sí solos",
-    "subheadline": "Proyectos reales con impacto medible en empresas líderes de la región.",
-    "see_case": "Ver caso completo",
-    "items": {
-      "case_1": {
-        "title": "Plataforma de Datos Unificada para Retailer Multinacional",
-        "industry": "Retail",
-        "result": "70% reducción en tiempo de procesamiento",
-        "description": "Migración de data warehouse legacy a arquitectura Medallion en Azure Databricks, unificando 15 fuentes de datos."
-      },
-      "case_2": {
-        "title": "Agente IA para Optimización de Supply Chain",
-        "industry": "Manufactura",
-        "result": "$2M USD en ahorros anuales",
-        "description": "Implementación de agente LLM con RAG sobre historial de pedidos y catálogo de proveedores."
-      },
-      "case_3": {
-        "title": "Data Mesh para Empresa de Servicios Financieros",
-        "industry": "Finanzas",
-        "result": "3x más velocidad en reportes regulatorios",
-        "description": "Arquitectura Data Mesh con Unity Catalog y gobierno del dato para cumplimiento normativo."
-      },
-      "case_4": {
-        "title": "Centro de Analítica para Sector Salud",
-        "industry": "Salud",
-        "result": "98% disponibilidad de datos críticos",
-        "description": "Plataforma de analítica clínica en tiempo real con dashboards para equipos médicos y directivos."
-      }
-    }
-  },
-  "tech": {
-    "label": "TECNOLOGÍAS",
-    "headline": "Construimos sobre las mejores plataformas",
-    "subheadline": "Stack moderno y certificado para cada capa de tu arquitectura de datos."
-  },
-  "testimonials": {
-    "label": "LO QUE DICEN",
-    "headline": "La confianza de nuestros clientes",
-    "items": {
-      "t1": {
-        "quote": "ARKMAPIX transformó completamente nuestra capacidad analítica. En 6 meses pasamos de reportes semanales manuales a dashboards en tiempo real que toda la organización usa a diario.",
-        "name": "Carlos Mendoza",
-        "role": "CTO",
-        "company": "RetailCo Latinoamérica"
-      },
-      "t2": {
-        "quote": "El nivel técnico del equipo es excepcional. Entendieron nuestro negocio antes de escribir una sola línea de código. La arquitectura que diseñaron es robusta, escalable y fácil de mantener.",
-        "name": "Ana Sofía Restrepo",
-        "role": "Directora de Datos",
-        "company": "Grupo Financiero Andino"
-      },
-      "t3": {
-        "quote": "Contratamos a ARKMAPIX para un proyecto de 3 meses que se convirtió en una alianza estratégica de largo plazo. Su enfoque en transferencia de conocimiento hizo que nuestro equipo creciera enormemente.",
-        "name": "Diego Vargas",
-        "role": "VP de Tecnología",
-        "company": "Industrias del Pacífico"
-      }
-    }
-  },
-  "cta_banner": {
-    "headline": "¿Listo para transformar tus datos?",
-    "subheadline": "Agenda una llamada con nuestros arquitectos de datos y descubre cómo ARKMAPIX puede acelerar tu transformación digital.",
-    "cta_primary": "Enviar mensaje",
-    "cta_secondary": "Ver servicios",
-    "stat_label": "Proyectos entregados con éxito"
-  },
-  "blog": {
-    "label": "INSIGHTS",
-    "headline": "Conocimiento que impulsa decisiones",
-    "read_more": "Leer más",
-    "items": {
-      "post_1": {
-        "category": "Data Engineering",
-        "title": "Lakeflow vs ADF: Cuál elegir para tu siguiente pipeline de datos",
-        "excerpt": "Una comparación práctica de Databricks Lakeflow y Azure Data Factory para equipos que necesitan decidir su stack de integración.",
-        "date": "15 Mar 2025"
-      },
-      "post_2": {
-        "category": "Inteligencia Artificial",
-        "title": "Cómo construir un agente RAG con Azure AI Foundry en producción",
-        "excerpt": "Guía técnica paso a paso para implementar un agente de recuperación aumentada con datos empresariales reales.",
-        "date": "8 Mar 2025"
-      },
-      "post_3": {
-        "category": "Microsoft Fabric",
-        "title": "Microsoft Fabric Mirroring: sincronización sin ETL para tu lakehouse",
-        "excerpt": "Exploramos la nueva funcionalidad de Mirroring en Microsoft Fabric y cómo puede simplificar radicalmente tu arquitectura.",
-        "date": "1 Mar 2025"
-      }
-    }
-  },
-  "footer": {
-    "tagline": "Diseñamos arquitecturas de datos que escalan con tu negocio.",
-    "services_title": "Servicios",
-    "company_title": "Empresa",
-    "contact_title": "Contacto",
-    "newsletter_placeholder": "Tu email corporativo",
-    "newsletter_cta": "Suscribirse",
-    "newsletter_label": "Insights de datos cada semana",
-    "copyright": "© 2025 ARKMAPIX. Todos los derechos reservados.",
-    "location": "(+57) 350 885 8369",
-    "privacy": "Privacidad",
-    "terms": "Términos",
-    "links": {
-      "about": "Nosotros",
-      "cases": "Casos de éxito",
-      "academy": "Academia",
-      "labs": "Labs",
-      "blog": "Blog",
-      "contact": "Contacto"
-    }
-  },
-  "contact": {
-    "hero_title": "Hablemos de tu proyecto",
-    "hero_subtitle": "Cuéntanos qué estás construyendo y nuestro equipo te responderá en menos de 24 horas.",
-    "form": {
-      "name": "Nombre completo",
-      "email": "Email corporativo",
-      "company": "Empresa",
-      "country": "País",
-      "service": "Servicio de interés",
-      "message": "Cuéntanos sobre tu proyecto",
-      "submit": "Enviar mensaje",
-      "sending": "Enviando...",
-      "success": "¡Mensaje enviado! Te responderemos pronto.",
-      "error": "Ocurrió un error. Por favor intenta de nuevo.",
-      "select_country": "Selecciona tu país",
-      "select_service": "Selecciona un servicio"
+    "nav": {
+        "services": "Servicios",
+        "cases": "Casos",
+        "academy": "Academia",
+        "labs": "Labs",
+        "blog": "Blog",
+        "about": "Nosotros",
+        "cta": "Hablemos",
+        "lang_es": "ES",
+        "lang_en": "EN"
     },
-    "info": {
-      "email_label": "Email",
-      "email_value": "hola@arkmapix.com",
-      "response_time": "Respondemos en menos de 24 horas",
-      "schedule_label": "Agenda una llamada",
-      "schedule_cta": "Reservar en Calendly",
-      "location_label": "Ubicación",
-      "location_value": "Medellín, Colombia"
-    }
-  },
-  "meta": {
-    "home": {
-      "title": "ARKMAPIX — Arquitectura de Datos e Inteligencia Artificial",
-      "description": "Consultora latinoamericana de datos, analítica e inteligencia artificial. Diseñamos arquitecturas que escalan con tu negocio. Azure Databricks, Microsoft Fabric, AI Agents."
+    "hero": {
+        "badge": "ARKMAPIX · Data & AI Architecture",
+        "headline_1": "Datos que construyen",
+        "headline_2": "Organizaciones que crecen",
+        "subheadline": "Transformamos datos en ventajas competitivas. Diseñamos arquitecturas que escalan con tu negocio.",
+        "cta_primary": "Ver nuestros servicios",
+        "cta_secondary": "Conocer más",
+        "scroll_hint": "Desplázate hacia abajo"
+    },
+    "clients": {
+        "title": "Empresas que confían en ARKMAPIX"
     },
     "about": {
-      "title": "Nosotros — ARKMAPIX",
-      "description": "Conoce al equipo detrás de ARKMAPIX, nuestra filosofía y cómo construimos soluciones de datos de clase mundial desde Colombia."
+        "label": "SOBRE ARKMAPIX",
+        "headline": "Ayudamos a escalar tu negocio.",
+        "body": "Diseñamos y desarrollamos soluciones completas de datos, software e inteligencia artificial que convierten la información de tu organización en su mayor ventaja competitiva.",
+        "stat_projects": "proyectos",
+        "stat_countries": "países",
+        "stat_years": "años de experiencia",
+        "stat_projects_num": "10+",
+        "stat_countries_num": "2",
+        "stat_years_num": "6+",
+        "cta": "Conocer nuestra historia",
+        "image_alt": "Machu Picchu — inspiración arquitectónica de ARKMAPIX"
     },
     "services": {
-      "title": "Servicios — ARKMAPIX",
-      "description": "Arquitectura de datos, data engineering, analítica avanzada, inteligencia artificial y más. Descubre nuestros servicios especializados."
+        "label": "LO QUE CONSTRUIMOS",
+        "headline": "Soluciones de datos de alto impacto",
+        "subheadline": "Desde la arquitectura hasta la inteligencia artificial, cubrimos todo el ciclo de vida del dato.",
+        "see_more": "Ver más",
+        "items": {
+            "software_engineering": {
+                "name": "Ingeniería de Software",
+                "description": "Diseño de plataformas Medallion, Lakehouse y Data Mesh sobre Azure Databricks y Microsoft Fabric para empresas que escalan."
+            },
+            "ai_ml": {
+                "name": "AI & ML",
+                "description": "Pipelines Lakeflow, ETL/ELT, Azure Data Factory y Databricks Asset Bundles. Datos listos cuando los necesitas."
+            },
+            "data_analytics": {
+                "name": "Data & Analítica",
+                "description": "BI, dashboards ejecutivos, Power BI, Unity Catalog y gobierno del dato. Decisiones basadas en evidencia."
+            },
+            "business_transformation": {
+                "name": "Transformación Empresarial",
+                "description": "Agentes IA, LLMs, MLOps, Azure AI Foundry y RAG pipelines. La IA al servicio de tu negocio."
+            },
+            "cloud_devops": {
+                "name": "Cloud & DevOps de Datos",
+                "description": "CI/CD para datos, Azure DevOps, DAB y Microsoft Fabric Mirroring. Infraestructura que no te detiene."
+            },
+            "academy": {
+                "name": "ARKMAPIX Academy",
+                "description": "Formación técnica certificada, cursos enterprise y especializaciones en Databricks y Azure para equipos."
+            }
+        }
+    },
+    "process": {
+        "label": "CÓMO TRABAJAMOS",
+        "headline": "Un proceso probado para resultados reales",
+        "steps": {
+            "diagnosis": {
+                "title": "Diagnóstico",
+                "description": "Evaluamos tu arquitectura actual, identificamos brechas y oportunidades de mejora en tus sistemas de datos."
+            },
+            "architecture": {
+                "title": "Arquitectura",
+                "description": "Diseñamos la solución óptima para tu caso de uso, tecnologías y escala de negocio."
+            },
+            "implementation": {
+                "title": "Implementación",
+                "description": "Construimos y desplegamos con metodología ágil, manteniendo al equipo informado en cada sprint."
+            },
+            "validation": {
+                "title": "Validación",
+                "description": "Pruebas de performance, calidad del dato, seguridad y governance antes de ir a producción."
+            },
+            "scaling": {
+                "title": "Escalamiento",
+                "description": "Optimizamos costos, escalamos capacidades y transferimos conocimiento a tu equipo interno."
+            }
+        }
     },
     "cases": {
-      "title": "Casos de Éxito — ARKMAPIX",
-      "description": "Proyectos de datos con impacto real. Casos de éxito en retail, finanzas, manufactura y salud."
+        "label": "CASOS DE ÉXITO",
+        "headline": "Resultados que hablan por sí solos",
+        "subheadline": "Proyectos reales con impacto medible en empresas líderes de la región.",
+        "see_case": "Ver caso completo",
+        "items": {
+            "case_1": {
+                "title": "Plataforma de Datos Unificada para Constructora",
+                "industry": "Real state",
+                "result": "70% reducción en tiempo de procesamiento",
+                "description": "Migración de data warehouse legacy a arquitectura Medallion en Azure Databricks, unificando 15 fuentes de datos."
+            },
+            "case_2": {
+                "title": "Agente IA para de Procesos de Despliegue CI/CD",
+                "industry": "Real state",
+                "result": "Procesos ágiles de code review, reducción del 80% de tiempo de despliegue.",
+                "description": "Implementación de agente LLM que revisa el codigo estático y genera resultados de aprobación y rechazo para los desarrolladores rápido y conciso."
+            }
+        }
+    },
+    "tech": {
+        "label": "TECNOLOGÍAS",
+        "headline": "Construimos sobre las mejores plataformas",
+        "subheadline": "Stack moderno y certificado para cada capa de tu arquitectura de datos."
+    },
+    "testimonials": {
+        "label": "LO QUE DICEN",
+        "headline": "La confianza de nuestros clientes",
+        "items": {
+            "t1": {
+                "quote": "ARKMAPIX transformó completamente nuestra capacidad analítica. En 6 meses pasamos de reportes semanales manuales a dashboards en tiempo real que toda la organización usa a diario.",
+                "name": "Carlos Mendoza",
+                "role": "CTO",
+                "company": "RetailCo Latinoamérica"
+            },
+            "t2": {
+                "quote": "El nivel técnico del equipo es excepcional. Entendieron nuestro negocio antes de escribir una sola línea de código. La arquitectura que diseñaron es robusta, escalable y fácil de mantener.",
+                "name": "Ana Sofía Restrepo",
+                "role": "Directora de Datos",
+                "company": "Grupo Financiero Andino"
+            },
+            "t3": {
+                "quote": "Contratamos a ARKMAPIX para un proyecto de 3 meses que se convirtió en una alianza estratégica de largo plazo. Su enfoque en transferencia de conocimiento hizo que nuestro equipo creciera enormemente.",
+                "name": "Diego Vargas",
+                "role": "VP de Tecnología",
+                "company": "Industrias del Pacífico"
+            }
+        }
+    },
+    "cta_banner": {
+        "headline": "¿Listo para transformar tus datos?",
+        "subheadline": "Agenda una llamada con nuestros arquitectos de datos y descubre cómo ARKMAPIX puede acelerar tu transformación digital.",
+        "cta_primary": "Enviar mensaje",
+        "cta_secondary": "Ver servicios",
+        "stat_label": "Proyectos entregados con éxito"
+    },
+    "blog": {
+        "label": "INSIGHTS",
+        "headline": "Conocimiento que impulsa decisiones",
+        "read_more": "Leer más",
+        "items": {
+            "post_1": {
+                "category": "Data Engineering",
+                "title": "Lakeflow vs ADF: Cuál elegir para tu siguiente pipeline de datos",
+                "excerpt": "Una comparación práctica de Databricks Lakeflow y Azure Data Factory para equipos que necesitan decidir su stack de integración.",
+                "date": "15 Mar 2025"
+            },
+            "post_2": {
+                "category": "Inteligencia Artificial",
+                "title": "Cómo construir un agente RAG con Azure AI Foundry en producción",
+                "excerpt": "Guía técnica paso a paso para implementar un agente de recuperación aumentada con datos empresariales reales.",
+                "date": "8 Mar 2025"
+            },
+            "post_3": {
+                "category": "Microsoft Fabric",
+                "title": "Microsoft Fabric Mirroring: sincronización sin ETL para tu lakehouse",
+                "excerpt": "Exploramos la nueva funcionalidad de Mirroring en Microsoft Fabric y cómo puede simplificar radicalmente tu arquitectura.",
+                "date": "1 Mar 2025"
+            }
+        }
+    },
+    "footer": {
+        "tagline": "Diseñamos arquitecturas de datos que escalan con tu negocio.",
+        "services_title": "Servicios",
+        "company_title": "Empresa",
+        "contact_title": "Contacto",
+        "newsletter_placeholder": "Tu email corporativo",
+        "newsletter_cta": "Suscribirse",
+        "newsletter_label": "Insights de datos cada semana",
+        "copyright": "© {year} ARKMAPIX. Todos los derechos reservados.",
+        "location": "(+57) 350 885 8369",
+        "privacy": "Privacidad",
+        "terms": "Términos",
+        "links": {
+            "about": "Nosotros",
+            "cases": "Casos de éxito",
+            "academy": "Academia",
+            "labs": "Labs",
+            "blog": "Blog",
+            "contact": "Contacto"
+        }
     },
     "contact": {
-      "title": "Contacto — ARKMAPIX",
-      "description": "Agenda una llamada con nuestros arquitectos de datos. Respondemos en menos de 24 horas."
+        "hero_title": "Hablemos de tu proyecto",
+        "hero_subtitle": "Cuéntanos qué estás construyendo y nuestro equipo te responderá en menos de 24 horas.",
+        "form": {
+            "name": "Nombre completo",
+            "email": "Email corporativo",
+            "company": "Empresa",
+            "country": "País",
+            "service": "Servicio de interés",
+            "message": "Cuéntanos sobre tu proyecto",
+            "submit": "Enviar mensaje",
+            "sending": "Enviando...",
+            "success": "¡Mensaje enviado! Te responderemos pronto.",
+            "error": "Ocurrió un error. Por favor intenta de nuevo.",
+            "select_country": "Selecciona tu país",
+            "select_service": "Selecciona un servicio"
+        },
+        "info": {
+            "email_label": "Email",
+            "email_value": "hola@arkmapix.com",
+            "response_time": "Respondemos en menos de 24 horas",
+            "schedule_label": "Agenda una llamada",
+            "schedule_cta": "Reservar en Calendly",
+            "location_label": "Ubicación",
+            "location_value": "Medellín, Colombia"
+        }
+    },
+    "meta": {
+        "home": {
+            "title": "ARKMAPIX — Arquitectura de Datos e Inteligencia Artificial",
+            "description": "Consultora latinoamericana de datos, analítica e inteligencia artificial. Diseñamos arquitecturas que escalan con tu negocio. Azure Databricks, Microsoft Fabric, AI Agents."
+        },
+        "about": {
+            "title": "Nosotros — ARKMAPIX",
+            "description": "Conoce al equipo detrás de ARKMAPIX, nuestra filosofía y cómo construimos soluciones de datos de clase mundial desde Colombia."
+        },
+        "services": {
+            "title": "Servicios — ARKMAPIX",
+            "description": "Arquitectura de datos, data engineering, analítica avanzada, inteligencia artificial y más. Descubre nuestros servicios especializados."
+        },
+        "cases": {
+            "title": "Casos de Éxito — ARKMAPIX",
+            "description": "Proyectos de datos con impacto real. Casos de éxito en retail, finanzas, manufactura y salud."
+        },
+        "contact": {
+            "title": "Contacto — ARKMAPIX",
+            "description": "Agenda una llamada con nuestros arquitectos de datos. Respondemos en menos de 24 horas."
+        }
+    },
+    "service_detail": {
+        "back": "Volver a Servicios",
+        "capabilities_label": "Capacidades clave",
+        "process_label": "Cómo lo entregamos",
+        "tech_label": "Tecnologías",
+        "cta_headline": "¿Listo para empezar?",
+        "cta_body": "Hablemos de tu arquitectura y encontremos la solución ideal para tu negocio.",
+        "cta_btn": "Agendar consulta gratuita"
+    },
+    "case_detail": {
+        "back": "Volver a Casos",
+        "challenge": "El Desafío",
+        "solution": "La Solución",
+        "results": "Resultados",
+        "technologies": "Tecnologías utilizadas",
+        "cta_headline": "¿Quieres resultados similares?",
+        "cta_body": "Hablemos sobre cómo ARKMAPIX puede resolver tus retos de datos.",
+        "cta_btn": "Hablar con nuestro equipo"
+    },
+    "about_page": {
+        "page_title": "Sobre ARKMAPIX",
+        "page_subtitle": "Construidos en la cima. Diseñados para el futuro.",
+        "mission_label": "Nuestra Misión",
+        "mission_body": "Democratizar la inteligencia de datos a nivel global, diseñando arquitecturas robustas que permitan a las empresas tomar decisiones más inteligentes, rápidas y basadas en evidencia.",
+        "vision_label": "Nuestra Visión",
+        "vision_body": "Ser la organización de datos e IA de referencia a nivel global, reconocida por la calidad técnica de nuestras soluciones, la transferencia genuina de conocimiento y el impacto real en los negocios de nuestros clientes.",
+        "values_label": "Nuestros Valores",
+        "v1_title": "Excelencia técnica",
+        "v1_body": "Construimos sobre fundamentos sólidos, con código limpio, arquitecturas bien documentadas y prácticas de ingeniería de primer nivel.",
+        "v2_title": "Transparencia radical",
+        "v2_body": "Comunicación directa, precios claros y entregas sin sorpresas. Nuestros clientes siempre saben en qué etapa está su proyecto.",
+        "v3_title": "Transferencia de conocimiento",
+        "v3_body": "No creamos dependencia. Entrenamos a los equipos de nuestros clientes para que puedan operar y evolucionar las soluciones que construimos.",
+        "cta_headline": "¿Listo para trabajar juntos?",
+        "cta_btn": "Hablemos de tu proyecto"
+    },
+    "academy_page": {
+        "subtitle": "Formación técnica certificada en Azure Databricks, Microsoft Fabric y más. Programas enterprise para equipos de datos.",
+        "programs_label": "Programas de formación",
+        "p1_badge": "Databricks",
+        "p1_title": "Data Engineer Associate",
+        "p1_body": "Certificación oficial Databricks para ingenieros de datos. Cubre Delta Lake, Apache Spark, Medallion Architecture y pipelines con Lakeflow.",
+        "p1_duration": "40 horas",
+        "p2_badge": "Microsoft Fabric",
+        "p2_title": "Microsoft Fabric Analyst",
+        "p2_body": "Domina la plataforma unificada de Microsoft: Lakehouse, Warehouse, Real-Time Analytics, Power BI integrado y pipelines sin código.",
+        "p2_duration": "32 horas",
+        "p3_badge": "AI & MLOps",
+        "p3_title": "AI Engineer on Azure",
+        "p3_body": "Diseño e implementación de soluciones de inteligencia artificial con Azure AI Foundry, RAG pipelines, agentes LLM y MLOps en producción.",
+        "p3_duration": "48 horas",
+        "why_label": "¿Por qué ARKMAPIX Academy?",
+        "w1_title": "Instructores certificados",
+        "w1_body": "Todos nuestros instructores son Microsoft MVPs o Databricks Champions con experiencia real en proyectos enterprise.",
+        "w2_title": "Contenido práctico",
+        "w2_body": "Laboratorios hands-on con datos reales, casos empresariales y proyectos que puedes llevar a tu organización.",
+        "w3_title": "Formato flexible",
+        "w3_body": "Cursos en vivo, grabados o presenciales según las necesidades de tu equipo. Disponibles en español e inglés.",
+        "cta_headline": "Capacita a tu equipo con ARKMAPIX Academy",
+        "cta_body": "Diseñamos el programa ideal para tu empresa. Cuéntanos cuántas personas, qué tecnologías y cuáles son tus objetivos.",
+        "cta_btn": "Solicitar información",
+        "services_page_title": "Nuestros Servicios",
+        "services_page_subtitle": "Soluciones de datos de alto impacto para empresas que escalan.",
+        "cases_page_title": "Casos de Éxito",
+        "cases_page_subtitle": "Proyectos reales con impacto medible en empresas líderes de la región."
+    },
+    "privacy": {
+        "meta_title": "Política de Privacidad — ARKMAPIX",
+        "meta_description": "Conoce cómo ARKMAPIX recopila, usa y protege tu información personal cuando usas nuestro sitio web y formulario de contacto.",
+        "badge": "LEGAL · PRIVACIDAD",
+        "title": "Política de Privacidad",
+        "subtitle": "Nos comprometemos a proteger tu información personal y tu derecho a la privacidad. Esta política explica cómo manejamos los datos recopilados a través de nuestro sitio web y formulario de contacto.",
+        "last_updated": "Última actualización: 1 de enero de 2025",
+        "sections": [
+            {
+                "id": "responsible",
+                "title": "1. Responsable del Tratamiento",
+                "content": [
+                    "ARKMAPIX (en adelante \"ARKMAPIX\", \"nosotros\" o \"nuestro\") es el responsable del tratamiento de los datos personales recopilados a través de este sitio web.",
+                    "Contacto: contacto@arkmapix.com | Ubicación: Medellín, Colombia."
+                ]
+            },
+            {
+                "id": "data-collected",
+                "title": "2. Información que Recopilamos",
+                "content": [
+                    "Solo recopilamos la información que tú nos proporcionas voluntariamente a través de nuestro formulario de contacto. Esto incluye:",
+                    "• Nombre completo y correo electrónico corporativo.",
+                    "• Nombre de la empresa y país de operación.",
+                    "• Servicio de interés y descripción del proyecto.",
+                    "No recopilamos datos personales sensibles, información de pago, ni datos de menores de 18 años."
+                ]
+            },
+            {
+                "id": "purpose",
+                "title": "3. Cómo Usamos tu Información",
+                "content": [
+                    "Los datos que envías a través del formulario de contacto son usados exclusivamente para:",
+                    "• Responder a tu consulta o solicitud de proyecto en menos de 24 horas hábiles.",
+                    "• Evaluar el ajuste técnico y comercial entre tus necesidades y nuestros servicios.",
+                    "• Dar seguimiento a la conversación si no has recibido una respuesta.",
+                    "Nunca usaremos tus datos con fines de marketing sin tu consentimiento previo y explícito."
+                ]
+            },
+            {
+                "id": "legal-basis",
+                "title": "4. Base Legal del Tratamiento",
+                "content": [
+                    "Tratamos tus datos personales con base en tu consentimiento, otorgado al completar y enviar voluntariamente nuestro formulario de contacto.",
+                    "Puedes retirar tu consentimiento en cualquier momento enviando una solicitud a contacto@arkmapix.com. La retirada del consentimiento no afecta la licitud del tratamiento previo."
+                ]
+            },
+            {
+                "id": "retention",
+                "title": "5. Tiempo de Conservación",
+                "content": [
+                    "Conservamos tu información personal durante el tiempo necesario para responder a tu consulta y, en su caso, gestionar la relación comercial que pueda derivarse.",
+                    "Si no se establece una relación comercial, tus datos serán eliminados dentro de los 12 meses siguientes al último contacto.",
+                    "Puedes solicitar la eliminación de tus datos en cualquier momento contactándonos en contacto@arkmapix.com."
+                ]
+            },
+            {
+                "id": "sharing",
+                "title": "6. Compartición de Información",
+                "content": [
+                    "No vendemos, alquilamos ni cedemos tu información personal a terceros.",
+                    "Podemos compartir tus datos únicamente con proveedores de servicios de confianza que nos asisten en la operación del sitio web (ej. servicios de correo electrónico), bajo estrictas obligaciones de confidencialidad y solo en la medida necesaria.",
+                    "Podemos revelar tu información si así lo exige la ley o una orden judicial válida."
+                ]
+            },
+            {
+                "id": "rights",
+                "title": "7. Tus Derechos",
+                "content": [
+                    "Tienes derecho a: acceder a los datos personales que tenemos sobre ti; rectificar datos inexactos o incompletos; solicitar la eliminación de tus datos (derecho al olvido); oponerte o restringir el tratamiento de tus datos; solicitar la portabilidad de tus datos en un formato estructurado y de uso común.",
+                    "Para ejercer cualquiera de estos derechos, contáctanos en contacto@arkmapix.com. Responderemos en un plazo de 30 días calendario."
+                ]
+            },
+            {
+                "id": "security",
+                "title": "8. Seguridad",
+                "content": [
+                    "Implementamos medidas técnicas y organizativas apropiadas para proteger tu información personal contra accesos no autorizados, pérdida accidental, destrucción o alteración.",
+                    "Nuestro sitio web utiliza cifrado HTTPS para toda la transmisión de datos. El acceso a los datos recopilados está restringido únicamente al personal autorizado."
+                ]
+            },
+            {
+                "id": "cookies",
+                "title": "9. Cookies y Rastreo",
+                "content": [
+                    "Nuestro sitio web puede utilizar cookies estrictamente necesarias para garantizar su correcto funcionamiento. Actualmente no utilizamos cookies de publicidad ni de rastreo.",
+                    "Puedes configurar tu navegador para rechazar cookies; sin embargo, esto puede afectar algunas funcionalidades del sitio."
+                ]
+            },
+            {
+                "id": "updates",
+                "title": "10. Actualizaciones de la Política",
+                "content": [
+                    "Podemos actualizar esta Política de Privacidad periódicamente para reflejar cambios en nuestras prácticas o por razones legales, técnicas u operativas.",
+                    "Te notificaremos sobre cambios materiales publicando la nueva política en esta página con una fecha actualizada. Te recomendamos revisar esta página periódicamente."
+                ]
+            },
+            {
+                "id": "contact-privacy",
+                "title": "11. Contacto",
+                "content": [
+                    "Si tienes preguntas, inquietudes o solicitudes relacionadas con esta Política de Privacidad, contáctanos en:",
+                    "Correo: contacto@arkmapix.com",
+                    "Nos comprometemos a responder todas las consultas sobre privacidad en un plazo de 5 días hábiles."
+                ]
+            }
+        ]
+    },
+    "terms": {
+        "meta_title": "Términos y Condiciones — ARKMAPIX",
+        "meta_description": "Lee los términos y condiciones que rigen el uso del sitio web de ARKMAPIX y el envío de información a través de nuestro formulario de contacto.",
+        "badge": "LEGAL · TÉRMINOS",
+        "title": "Términos y Condiciones",
+        "subtitle": "Al acceder y utilizar este sitio web, aceptas estos términos y condiciones. Por favor léelos cuidadosamente antes de enviar cualquier información.",
+        "last_updated": "Última actualización: 1 de enero de 2025",
+        "sections": [
+            {
+                "id": "acceptance",
+                "title": "1. Aceptación de los Términos",
+                "content": [
+                    "Al acceder, navegar o usar el sitio web de ARKMAPIX (arkmapix.com) y/o enviar información a través de nuestro formulario de contacto, aceptas quedar vinculado por estos Términos y Condiciones y nuestra Política de Privacidad.",
+                    "Si no estás de acuerdo con alguna parte de estos términos, por favor no uses este sitio web ni envíes tu información."
+                ]
+            },
+            {
+                "id": "website-purpose",
+                "title": "2. Propósito del Sitio Web",
+                "content": [
+                    "Este sitio web es una landing page informativa diseñada para presentar los servicios de consultoría en arquitectura de datos e inteligencia artificial de ARKMAPIX, y para permitir que los interesados puedan realizar contacto a través de un formulario.",
+                    "El sitio web no ofrece productos o servicios directamente a la venta a través de la plataforma. Cualquier vinculación comercial se formaliza mediante acuerdos separados fuera de este sitio web."
+                ]
+            },
+            {
+                "id": "form-use",
+                "title": "3. Uso del Formulario de Contacto",
+                "content": [
+                    "Al completar y enviar el formulario de contacto, declaras que: (a) la información proporcionada es verídica y precisa; (b) actúas en nombre propio o con autorización de la organización que representas; (c) eres mayor de 18 años.",
+                    "El envío del formulario no crea ninguna obligación contractual por parte de ARKMAPIX y no garantiza la prestación de ningún servicio.",
+                    "ARKMAPIX se reserva el derecho de no responder a consultas que sean poco claras, ofensivas o ajenas al alcance de sus servicios."
+                ]
+            },
+            {
+                "id": "intellectual-property",
+                "title": "4. Propiedad Intelectual",
+                "content": [
+                    "Todo el contenido de este sitio web —incluyendo pero no limitado a textos, gráficos, logotipos, íconos, imágenes y código— es propiedad exclusiva de ARKMAPIX y está protegido por las leyes de propiedad intelectual aplicables.",
+                    "No puedes reproducir, distribuir, modificar, transmitir ni utilizar el contenido del sitio web con fines comerciales sin autorización previa y por escrito de ARKMAPIX.",
+                    "El uso no autorizado de nuestro contenido constituye una violación de la legislación de propiedad intelectual y puede dar lugar a acciones legales."
+                ]
+            },
+            {
+                "id": "liability",
+                "title": "5. Exclusión de Garantías",
+                "content": [
+                    "Este sitio web se proporciona \"tal cual\", sin garantías de ningún tipo, expresas o implícitas, incluyendo exactitud, disponibilidad, idoneidad para un propósito particular o ausencia de infracciones.",
+                    "ARKMAPIX no garantiza que el sitio web esté libre de errores, interrupciones, virus u otros componentes dañinos.",
+                    "La información publicada en este sitio web tiene únicamente fines informativos generales y no constituye asesoramiento técnico, legal, financiero ni de ninguna otra índole profesional."
+                ]
+            },
+            {
+                "id": "limitation",
+                "title": "6. Limitación de Responsabilidad",
+                "content": [
+                    "En la máxima medida permitida por la ley aplicable, ARKMAPIX y sus colaboradores, directivos y socios no serán responsables de ningún daño directo, indirecto, incidental, consecuente o punitivo derivado de:",
+                    "• El uso o la imposibilidad de usar este sitio web.",
+                    "• Decisiones tomadas con base en la información publicada en el sitio.",
+                    "• Interrupciones técnicas o incidentes de seguridad fuera de nuestro control razonable."
+                ]
+            },
+            {
+                "id": "third-party",
+                "title": "7. Enlaces a Terceros",
+                "content": [
+                    "Este sitio web puede contener enlaces a sitios web de terceros con fines informativos. ARKMAPIX no tiene control sobre el contenido, las políticas de privacidad ni las prácticas de esos sitios.",
+                    "La inclusión de un enlace no implica respaldo ni afiliación con el sitio enlazado. Recomendamos revisar los términos y políticas de privacidad de cualquier sitio de terceros que visites."
+                ]
+            },
+            {
+                "id": "governing-law",
+                "title": "8. Ley Aplicable y Jurisdicción",
+                "content": [
+                    "Estos Términos y Condiciones se rigen por las leyes de la República de Colombia. Cualquier disputa que surja en relación con estos términos quedará sujeta a la jurisdicción exclusiva de los tribunales de la ciudad de Medellín, Colombia.",
+                    "Si alguna disposición de estos términos se declara inválida o inaplicable, las demás disposiciones permanecerán en plena vigencia."
+                ]
+            },
+            {
+                "id": "modifications",
+                "title": "9. Modificaciones a los Términos",
+                "content": [
+                    "ARKMAPIX se reserva el derecho de modificar estos Términos y Condiciones en cualquier momento. Los cambios se publicarán en esta página con una fecha actualizada.",
+                    "El uso continuado del sitio web después de cualquier cambio constituye tu aceptación de los términos revisados. Te recomendamos revisar esta página periódicamente."
+                ]
+            },
+            {
+                "id": "contact-terms",
+                "title": "10. Contacto",
+                "content": [
+                    "Si tienes alguna pregunta sobre estos Términos y Condiciones, contáctanos en:",
+                    "Correo: contacto@arkmapix.com",
+                    "Responderemos a todas las consultas en un plazo de 5 días hábiles."
+                ]
+            }
+        ]
     }
-  },
-  "service_detail": {
-    "back": "← Volver a Servicios",
-    "capabilities_label": "Capacidades clave",
-    "process_label": "Cómo lo entregamos",
-    "tech_label": "Tecnologías",
-    "cta_headline": "¿Listo para empezar?",
-    "cta_body": "Hablemos de tu arquitectura y encontremos la solución ideal para tu negocio.",
-    "cta_btn": "Agendar consulta gratuita"
-  },
-  "case_detail": {
-    "back": "← Volver a Casos",
-    "challenge": "El Desafío",
-    "solution": "La Solución",
-    "results": "Resultados",
-    "technologies": "Tecnologías utilizadas",
-    "cta_headline": "¿Quieres resultados similares?",
-    "cta_body": "Hablemos sobre cómo ARKMAPIX puede resolver tus retos de datos.",
-    "cta_btn": "Hablar con nuestro equipo"
-  },
-  "about_page": {
-    "page_title": "Sobre ARKMAPIX",
-    "page_subtitle": "Construidos en la cima. Diseñados para el futuro.",
-    "mission_label": "Nuestra Misión",
-    "mission_body": "Democratizar la inteligencia de datos en América Latina, diseñando arquitecturas robustas que permitan a las empresas tomar decisiones más inteligentes, rápidas y basadas en evidencia.",
-    "vision_label": "Nuestra Visión",
-    "vision_body": "Ser la consultora de datos de referencia en LATAM, reconocida por la calidad técnica de nuestras soluciones, la transferencia genuina de conocimiento y el impacto real en los negocios de nuestros clientes.",
-    "values_label": "Nuestros Valores",
-    "v1_title": "Excelencia técnica",
-    "v1_body": "Construimos sobre fundamentos sólidos, con código limpio, arquitecturas bien documentadas y prácticas de ingeniería de primer nivel.",
-    "v2_title": "Transparencia radical",
-    "v2_body": "Comunicación directa, precios claros y entregas sin sorpresas. Nuestros clientes siempre saben en qué etapa está su proyecto.",
-    "v3_title": "Transferencia de conocimiento",
-    "v3_body": "No creamos dependencia. Entrenamos a los equipos de nuestros clientes para que puedan operar y evolucionar las soluciones que construimos.",
-    "v4_title": "Orgullo latinoamericano",
-    "v4_body": "Talento de clase mundial desde Colombia. Entendemos el contexto, el idioma y los retos únicos de las empresas en nuestra región.",
-    "team_label": "El equipo",
-    "team_body": "Somos un equipo de arquitectos de datos, ingenieros y científicos de datos certificados en Azure Databricks y Microsoft Fabric, con experiencia en proyectos de alto impacto en toda América Latina.",
-    "cta_headline": "¿Listo para trabajar juntos?",
-    "cta_btn": "Hablemos de tu proyecto"
-  },
-  "academy_page": {
-    "subtitle": "Formación técnica certificada en Azure Databricks, Microsoft Fabric y más. Programas enterprise para equipos de datos.",
-    "programs_label": "Programas de formación",
-    "p1_badge": "Databricks",
-    "p1_title": "Data Engineer Associate",
-    "p1_body": "Certificación oficial Databricks para ingenieros de datos. Cubre Delta Lake, Apache Spark, Medallion Architecture y pipelines con Lakeflow.",
-    "p1_duration": "40 horas",
-    "p2_badge": "Microsoft Fabric",
-    "p2_title": "Microsoft Fabric Analyst",
-    "p2_body": "Domina la plataforma unificada de Microsoft: Lakehouse, Warehouse, Real-Time Analytics, Power BI integrado y pipelines sin código.",
-    "p2_duration": "32 horas",
-    "p3_badge": "AI & MLOps",
-    "p3_title": "AI Engineer on Azure",
-    "p3_body": "Diseño e implementación de soluciones de inteligencia artificial con Azure AI Foundry, RAG pipelines, agentes LLM y MLOps en producción.",
-    "p3_duration": "48 horas",
-    "why_label": "¿Por qué ARKMAPIX Academy?",
-    "w1_title": "Instructores certificados",
-    "w1_body": "Todos nuestros instructores son Microsoft MVPs o Databricks Champions con experiencia real en proyectos enterprise.",
-    "w2_title": "Contenido práctico",
-    "w2_body": "Laboratorios hands-on con datos reales, casos empresariales y proyectos que puedes llevar a tu organización.",
-    "w3_title": "Formato flexible",
-    "w3_body": "Cursos en vivo, grabados o presenciales según las necesidades de tu equipo. Disponibles en español e inglés.",
-    "cta_headline": "Capacita a tu equipo con ARKMAPIX Academy",
-    "cta_body": "Diseñamos el programa ideal para tu empresa. Cuéntanos cuántas personas, qué tecnologías y cuáles son tus objetivos.",
-    "cta_btn": "Solicitar información",
-    "services_page_title": "Nuestros Servicios",
-    "services_page_subtitle": "Soluciones de datos de alto impacto para empresas que escalan.",
-    "cases_page_title": "Casos de Éxito",
-    "cases_page_subtitle": "Proyectos reales con impacto medible en empresas líderes de la región."
-  }
 }
