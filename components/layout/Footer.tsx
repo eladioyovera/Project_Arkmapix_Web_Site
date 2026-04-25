@@ -135,13 +135,13 @@ export function Footer() {
                             <li className="flex items-center gap-2 text-sm" style={{ color: "#4A6080" }}>
                                 <Mail size={14} style={{ color: "#00C6FF", flexShrink: 0 }} />
                                 <a
-                                    href="mailto:hola@arkmapix.com"
+                                    href="mailto:contacto@arkmapix.com"
                                     className="transition-colors"
                                     style={{ color: "#4A6080" }}
                                     onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.color = "#00C6FF"; }}
                                     onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.color = "#4A6080"; }}
                                 >
-                                    contact@arkmapix.com
+                                    contacto@arkmapix.com
                                 </a>
                             </li>
                             <li className="flex items-center gap-2 text-sm" style={{ color: "#4A6080" }}>
